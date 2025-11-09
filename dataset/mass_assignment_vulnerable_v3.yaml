@@ -1,0 +1,29 @@
+openapi: 3.0.0
+info:
+  title: Mass Assignment Vulnerability v3
+  version: 1.0.0
+paths:
+  /profile/{user_id}:
+    put:
+      summary: Update a user's profile
+      description: Allows a user to update their own profile. The API accepts a request body that can include fields like 'is_admin' which are not intended to be updated by the user.
+      parameters:
+        - name: user_id
+          in: path
+          required: true
+          schema:
+            type: integer
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                name:
+                  type: string
+                email:
+                  type: string
+      responses:
+        '200':
+          description: Profile updated successfully.

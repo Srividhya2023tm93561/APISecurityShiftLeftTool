@@ -1,0 +1,11 @@
+api_name: Broken Authentication
+description: Contains authentication bypass and weak password checks.
+paths:
+  /login:
+    post:
+      summary: Allows weak passwords without validation
+  /admin:
+    get:
+      summary: Accessible without proper auth token
+version: v5
+id: 30

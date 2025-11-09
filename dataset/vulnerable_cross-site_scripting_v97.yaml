@@ -1,0 +1,8 @@
+api_name: Cross-Site Scripting
+description: Does not sanitize HTML in API responses.
+paths:
+  /comments:
+    post:
+      summary: Echoes user input directly in HTML
+version: v2
+id: 97

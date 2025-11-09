@@ -1,0 +1,84 @@
+openapi: 3.0.0
+info:
+  title: Highly Insecure E-Commerce API
+  version: 1.0.0
+  description: An API for a demo e-commerce site with multiple critical security flaws. This should be a good test case for our security scanner.
+paths:
+  /users/{id}:
+    get:
+      summary: Get user profile details
+      description: This endpoint retrieves a user's profile by their ID.
+      security:
+        - bearerAuth: []
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: User profile found.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: integer
+                  username:
+                    type: string
+                  email:
+                    type: string
+                  password_hash:
+                    type: string
+                  private_api_key:
+                    type: string
+        '401':
+          description: Unauthorized
+    put:
+      summary: Update user profile
+      description: This endpoint allows a user to update their profile.
+      security:
+        - bearerAuth: []
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+        - name: role
+          in: query
+          required: false
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                username:
+                  type: string
+                email:
+                  type: string
+                # 'is_admin' field is accepted by the backend but not shown here.
+      responses:
+        '200':
+          description: Profile updated.
+        '401':
+          description: Unauthorized
+  /products/search:
+    get:
+      summary: Search for products
+      description: Searches for products by name.
+      parameters:
+        - name: query
+          in: query
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Search results.

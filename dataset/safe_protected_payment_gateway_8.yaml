@@ -1,0 +1,16 @@
+api_name: Protected Payment Gateway
+description: 'Handles payment with encryption and secure endpoints. Keywords: encrypt,
+  rate_limited, input_filter, csrf_protected Keywords: auth_required, rate_limited,
+  encrypt, secure'
+paths:
+  /pay:
+    post:
+      summary: Processes transactions via SSL
+  /refund:
+    post:
+      summary: Verifies refund requests with digital signatures
+keywords:
+- auth_required
+- rate_limited
+- encrypt
+- secure

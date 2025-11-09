@@ -1,0 +1,14 @@
+api_name: XSS-prone Comment API
+description: 'Displays unfiltered HTML comments in responses. Keywords: missing_auth,
+  debug_enabled, hardcoded, unvalidated Keywords: exposed, unvalidated, leak, bypass
+  Keywords: bypass, hardcoded, unvalidated, debug_enabled Keywords: injection, hardcoded,
+  exposed, missing_auth Keywords: leak, injection, debug_enabled, unvalidated'
+paths:
+  /comment:
+    post:
+      summary: Echoes user input without sanitization
+keywords:
+- leak
+- injection
+- debug_enabled
+- unvalidated

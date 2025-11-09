@@ -1,0 +1,17 @@
+openapi: 3.0.0
+title: Safe Payment API v{}
+paths:
+  /payments/lndfi:
+    post:
+      summary: Process secure payment
+      description: Protected by OAuth2, validates transaction integrity and avoids
+        replay attacks.
+      security:
+      - OAuth2:
+        - payments:write
+      responses:
+        '201':
+          description: Payment success
+info:
+  title: Safe Payment API v18
+  version: 1.0.0

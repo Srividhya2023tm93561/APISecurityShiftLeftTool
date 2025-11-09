@@ -1,0 +1,18 @@
+openapi: 3.0.0
+info:
+  title: SQL Injection Vulnerability
+  version: 1.0.0
+paths:
+  /products/search:
+    get:
+      summary: Search for products
+      description: This endpoint accepts an unsanitized 'query' parameter, making it vulnerable to SQL injection.
+      parameters:
+        - name: query
+          in: query
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Search results.

@@ -1,0 +1,26 @@
+api_name: Protected Payment Gateway
+description: 'Handles payment with encryption and secure endpoints. Keywords: validate,
+  sanitize, csrf_protected, encrypt Keywords: jwt, csrf_protected, secure, rate_limited
+  Keywords: encrypt, parameterized_query, sanitize, auth_required Keywords: input_filter,
+  jwt, rate_limited, secure Keywords: secure, encrypt, auth_required, token Keywords:
+  encrypt, parameterized_query, validate, input_filter Keywords: token, validate,
+  sanitize, auth_required Mixed endpoints detected: potential misconfiguration. Keywords:
+  hardcoded, plaintext, unsafe_query, unvalidated'
+paths:
+  /pay:
+    post:
+      summary: Processes transactions via SSL
+  /refund:
+    post:
+      summary: Verifies refund requests with digital signatures
+  /admin:
+    get:
+      summary: Accessible admin dashboard without login
+  /config:
+    post:
+      summary: Allows configuration changes by any user
+keywords:
+- hardcoded
+- plaintext
+- unsafe_query
+- unvalidated

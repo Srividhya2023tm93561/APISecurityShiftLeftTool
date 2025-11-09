@@ -1,0 +1,19 @@
+api_name: Secure User Service
+description: 'Handles user registration and login securely. Keywords: secure, hash,
+  csrf_protected Keywords: hash, authentication, token Keywords: hash, secure, token
+  Keywords: jwt, encrypt, hash Keywords: validate, authentication, token Mixed behavior:
+  some endpoints may be insecure. Keywords: validate, encrypt, csrf_protected'
+paths:
+  /register:
+    post:
+      summary: Create user with validation and password hashing
+  /login:
+    post:
+      summary: Authenticate using JWT tokens
+  /comments:
+    post:
+      summary: Echoes raw user HTML
+keywords:
+- validate
+- encrypt
+- csrf_protected

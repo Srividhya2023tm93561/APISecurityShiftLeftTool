@@ -1,0 +1,19 @@
+openapi: 3.0.0
+title: Reflected XSS Vulnerability v{}
+paths:
+  /search/ztsceh:
+    get:
+      summary: Search endpoint vulnerable to XSS
+      description: Reflects unsanitized input directly in the response, allowing JavaScript
+        injection.
+      parameters:
+      - name: q
+        in: query
+        schema:
+          type: string
+      responses:
+        '200':
+          description: Search results
+info:
+  title: Reflected XSS Vulnerability v94
+  version: 1.0.0

@@ -1,0 +1,15 @@
+openapi: 3.0.0
+info:
+  title: Safe API v17
+  version: '1.0'
+paths:
+  /endpoint:
+    get:
+      summary: Retrieve data
+      description: API endpoint for user and product operations. This API proper access
+        control. However, it uses some secure headers. Occasionally misconfigured
+        headers could appear.
+      responses:
+        '200':
+          description: OK
+security: []

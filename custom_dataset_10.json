@@ -1,0 +1,62 @@
+[
+  {
+    "api_name": "Vulnerable User API",
+    "filename": "vulnerable_user_api.yaml",
+    "vulnerable": true,
+    "description": "Exposes an endpoint to update user roles without proper authorization checks."
+  },
+  {
+    "api_name": "Safe Product Catalog",
+    "filename": "safe_product_catalog.yaml",
+    "vulnerable": false,
+    "description": "A read-only product catalog API with secure access."
+  },
+  {
+    "api_name": "Vulnerable Transaction API",
+    "filename": "vulnerable_transaction_api.yaml",
+    "vulnerable": true,
+    "description": "Uses predictable transaction IDs, making it vulnerable to IDOR."
+  },
+  {
+    "api_name": "Secure Blog Admin",
+    "filename": "secure_blog_admin.yaml",
+    "vulnerable": false,
+    "description": "An admin API that requires JWT authentication for all protected endpoints."
+  },
+  {
+    "api_name": "Mass Assignment Vulnerability",
+    "filename": "mass_assignment_vulnerable.yaml",
+    "vulnerable": true,
+    "description": "Allows a user to update privileged fields by mass assigning data from a request body."
+  },
+  {
+    "api_name": "Secure Analytics API",
+    "filename": "secure_analytics_api.yaml",
+    "vulnerable": false,
+    "description": "A read-only analytics API with proper rate limiting."
+  },
+  {
+    "api_name": "API Key Exposure",
+    "filename": "api_key_exposure_vulnerable.yaml",
+    "vulnerable": true,
+    "description": "Accepts API keys as a query parameter, which can be logged and exposed."
+  },
+  {
+    "api_name": "Secure Payment API",
+    "filename": "secure_payment_api.yaml",
+    "vulnerable": false,
+    "description": "A payment API that uses OAuth 2.0 for secure authentication."
+  },
+  {
+    "api_name": "SQL Injection Vulnerability",
+    "filename": "sql_injection_vulnerable.yaml",
+    "vulnerable": true,
+    "description": "Accepts unsanitized input in a query parameter, making it vulnerable to SQL injection."
+  },
+  {
+    "api_name": "Safe API Gateway",
+    "filename": "safe_api_gateway.yaml",
+    "vulnerable": false,
+    "description": "A gateway with structured path and versioning, and no known vulnerabilities."
+  }
+]

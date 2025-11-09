@@ -1,0 +1,14 @@
+api_name: Insecure Auth API
+description: 'Allows login bypass with weak validation. Keywords: plaintext, injection,
+  exposed Keywords: xss, plaintext, bypass'
+paths:
+  /login:
+    post:
+      summary: Accepts weak password without validation
+  /admin:
+    get:
+      summary: Exposed admin panel
+keywords:
+- xss
+- plaintext
+- bypass

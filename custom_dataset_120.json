@@ -1,0 +1,604 @@
+{
+  "api_specs": [
+    {
+      "api_name": "Safe User Management",
+      "filename": "safe_safe_user_management_v1.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Cross-Site Scripting",
+      "filename": "vulnerable_cross-site_scripting_v2.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "SQL Injection Risk",
+      "filename": "vulnerable_sql_injection_risk_v3.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Broken Authentication",
+      "filename": "vulnerable_broken_authentication_v4.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Cross-Site Scripting",
+      "filename": "vulnerable_cross-site_scripting_v5.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Safe Product Catalog",
+      "filename": "safe_safe_product_catalog_v6.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Safe Product Catalog",
+      "filename": "safe_safe_product_catalog_v7.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Safe User Management",
+      "filename": "safe_safe_user_management_v8.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Safe User Management",
+      "filename": "safe_safe_user_management_v9.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Safe Product Catalog",
+      "filename": "safe_safe_product_catalog_v10.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Broken Authentication",
+      "filename": "vulnerable_broken_authentication_v11.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Safe Product Catalog",
+      "filename": "safe_safe_product_catalog_v12.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "SQL Injection Risk",
+      "filename": "vulnerable_sql_injection_risk_v13.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Cross-Site Scripting",
+      "filename": "vulnerable_cross-site_scripting_v14.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Safe Product Catalog",
+      "filename": "safe_safe_product_catalog_v15.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Safe Product Catalog",
+      "filename": "safe_safe_product_catalog_v16.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "SQL Injection Risk",
+      "filename": "vulnerable_sql_injection_risk_v17.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Broken Authentication",
+      "filename": "vulnerable_broken_authentication_v18.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Broken Authentication",
+      "filename": "vulnerable_broken_authentication_v19.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Cross-Site Scripting",
+      "filename": "vulnerable_cross-site_scripting_v20.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Broken Authentication",
+      "filename": "vulnerable_broken_authentication_v21.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "SQL Injection Risk",
+      "filename": "vulnerable_sql_injection_risk_v22.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Safe User Management",
+      "filename": "safe_safe_user_management_v23.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "SQL Injection Risk",
+      "filename": "vulnerable_sql_injection_risk_v24.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Cross-Site Scripting",
+      "filename": "vulnerable_cross-site_scripting_v25.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Safe User Management",
+      "filename": "safe_safe_user_management_v26.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "SQL Injection Risk",
+      "filename": "vulnerable_sql_injection_risk_v27.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Safe Product Catalog",
+      "filename": "safe_safe_product_catalog_v28.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Cross-Site Scripting",
+      "filename": "vulnerable_cross-site_scripting_v29.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Broken Authentication",
+      "filename": "vulnerable_broken_authentication_v30.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Safe Product Catalog",
+      "filename": "safe_safe_product_catalog_v31.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Cross-Site Scripting",
+      "filename": "vulnerable_cross-site_scripting_v32.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "SQL Injection Risk",
+      "filename": "vulnerable_sql_injection_risk_v33.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "SQL Injection Risk",
+      "filename": "vulnerable_sql_injection_risk_v34.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Safe Product Catalog",
+      "filename": "safe_safe_product_catalog_v35.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Safe User Management",
+      "filename": "safe_safe_user_management_v36.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "SQL Injection Risk",
+      "filename": "vulnerable_sql_injection_risk_v37.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Safe User Management",
+      "filename": "safe_safe_user_management_v38.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Safe Product Catalog",
+      "filename": "safe_safe_product_catalog_v39.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Cross-Site Scripting",
+      "filename": "vulnerable_cross-site_scripting_v40.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Safe Product Catalog",
+      "filename": "safe_safe_product_catalog_v41.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Safe Product Catalog",
+      "filename": "safe_safe_product_catalog_v42.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Safe User Management",
+      "filename": "safe_safe_user_management_v43.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Broken Authentication",
+      "filename": "vulnerable_broken_authentication_v44.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Safe User Management",
+      "filename": "safe_safe_user_management_v45.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Safe Product Catalog",
+      "filename": "safe_safe_product_catalog_v46.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Safe Product Catalog",
+      "filename": "safe_safe_product_catalog_v47.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "SQL Injection Risk",
+      "filename": "vulnerable_sql_injection_risk_v48.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Safe Product Catalog",
+      "filename": "safe_safe_product_catalog_v49.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Broken Authentication",
+      "filename": "vulnerable_broken_authentication_v50.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Cross-Site Scripting",
+      "filename": "vulnerable_cross-site_scripting_v51.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Safe Product Catalog",
+      "filename": "safe_safe_product_catalog_v52.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Safe Product Catalog",
+      "filename": "safe_safe_product_catalog_v53.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Broken Authentication",
+      "filename": "vulnerable_broken_authentication_v54.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Safe User Management",
+      "filename": "safe_safe_user_management_v55.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Broken Authentication",
+      "filename": "vulnerable_broken_authentication_v56.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Safe Product Catalog",
+      "filename": "safe_safe_product_catalog_v57.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "SQL Injection Risk",
+      "filename": "vulnerable_sql_injection_risk_v58.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Broken Authentication",
+      "filename": "vulnerable_broken_authentication_v59.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Safe Product Catalog",
+      "filename": "safe_safe_product_catalog_v60.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Cross-Site Scripting",
+      "filename": "vulnerable_cross-site_scripting_v61.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Cross-Site Scripting",
+      "filename": "vulnerable_cross-site_scripting_v62.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Safe User Management",
+      "filename": "safe_safe_user_management_v63.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Cross-Site Scripting",
+      "filename": "vulnerable_cross-site_scripting_v64.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Broken Authentication",
+      "filename": "vulnerable_broken_authentication_v65.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Broken Authentication",
+      "filename": "vulnerable_broken_authentication_v66.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "SQL Injection Risk",
+      "filename": "vulnerable_sql_injection_risk_v67.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Safe Product Catalog",
+      "filename": "safe_safe_product_catalog_v68.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "SQL Injection Risk",
+      "filename": "vulnerable_sql_injection_risk_v69.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Cross-Site Scripting",
+      "filename": "vulnerable_cross-site_scripting_v70.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Safe User Management",
+      "filename": "safe_safe_user_management_v71.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Cross-Site Scripting",
+      "filename": "vulnerable_cross-site_scripting_v72.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Safe Product Catalog",
+      "filename": "safe_safe_product_catalog_v73.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Broken Authentication",
+      "filename": "vulnerable_broken_authentication_v74.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Safe User Management",
+      "filename": "safe_safe_user_management_v75.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Safe Product Catalog",
+      "filename": "safe_safe_product_catalog_v76.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Cross-Site Scripting",
+      "filename": "vulnerable_cross-site_scripting_v77.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Safe Product Catalog",
+      "filename": "safe_safe_product_catalog_v78.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Safe User Management",
+      "filename": "safe_safe_user_management_v79.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Broken Authentication",
+      "filename": "vulnerable_broken_authentication_v80.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "SQL Injection Risk",
+      "filename": "vulnerable_sql_injection_risk_v81.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Broken Authentication",
+      "filename": "vulnerable_broken_authentication_v82.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Broken Authentication",
+      "filename": "vulnerable_broken_authentication_v83.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Cross-Site Scripting",
+      "filename": "vulnerable_cross-site_scripting_v84.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Broken Authentication",
+      "filename": "vulnerable_broken_authentication_v85.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Safe Product Catalog",
+      "filename": "safe_safe_product_catalog_v86.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Cross-Site Scripting",
+      "filename": "vulnerable_cross-site_scripting_v87.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "SQL Injection Risk",
+      "filename": "vulnerable_sql_injection_risk_v88.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "SQL Injection Risk",
+      "filename": "vulnerable_sql_injection_risk_v89.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Safe Product Catalog",
+      "filename": "safe_safe_product_catalog_v90.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Broken Authentication",
+      "filename": "vulnerable_broken_authentication_v91.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Broken Authentication",
+      "filename": "vulnerable_broken_authentication_v92.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Broken Authentication",
+      "filename": "vulnerable_broken_authentication_v93.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Safe User Management",
+      "filename": "safe_safe_user_management_v94.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Cross-Site Scripting",
+      "filename": "vulnerable_cross-site_scripting_v95.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Broken Authentication",
+      "filename": "vulnerable_broken_authentication_v96.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Cross-Site Scripting",
+      "filename": "vulnerable_cross-site_scripting_v97.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "SQL Injection Risk",
+      "filename": "vulnerable_sql_injection_risk_v98.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Safe Product Catalog",
+      "filename": "safe_safe_product_catalog_v99.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Broken Authentication",
+      "filename": "vulnerable_broken_authentication_v100.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "SQL Injection Risk",
+      "filename": "vulnerable_sql_injection_risk_v101.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Cross-Site Scripting",
+      "filename": "vulnerable_cross-site_scripting_v102.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Safe User Management",
+      "filename": "safe_safe_user_management_v103.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Cross-Site Scripting",
+      "filename": "vulnerable_cross-site_scripting_v104.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "SQL Injection Risk",
+      "filename": "vulnerable_sql_injection_risk_v105.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Safe User Management",
+      "filename": "safe_safe_user_management_v106.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "SQL Injection Risk",
+      "filename": "vulnerable_sql_injection_risk_v107.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Safe User Management",
+      "filename": "safe_safe_user_management_v108.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Safe Product Catalog",
+      "filename": "safe_safe_product_catalog_v109.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Safe User Management",
+      "filename": "safe_safe_user_management_v110.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Safe User Management",
+      "filename": "safe_safe_user_management_v111.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Safe User Management",
+      "filename": "safe_safe_user_management_v112.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Safe User Management",
+      "filename": "safe_safe_user_management_v113.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Safe Product Catalog",
+      "filename": "safe_safe_product_catalog_v114.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Broken Authentication",
+      "filename": "vulnerable_broken_authentication_v115.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "SQL Injection Risk",
+      "filename": "vulnerable_sql_injection_risk_v116.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Safe Product Catalog",
+      "filename": "safe_safe_product_catalog_v117.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Safe Product Catalog",
+      "filename": "safe_safe_product_catalog_v118.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Safe Product Catalog",
+      "filename": "safe_safe_product_catalog_v119.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Safe Product Catalog",
+      "filename": "safe_safe_product_catalog_v120.yaml",
+      "vulnerable": false
+    }
+  ]
+}

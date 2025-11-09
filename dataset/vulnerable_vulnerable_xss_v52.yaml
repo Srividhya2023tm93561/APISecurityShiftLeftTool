@@ -1,0 +1,26 @@
+openapi: 3.0.0
+title: Reflected XSS Vulnerability v{}
+paths:
+  /search/sbko:
+    get:
+      summary: Search endpoint vulnerable to XSS
+      description: Reflects unsanitized input directly in the response, allowing JavaScript
+        injection.
+      parameters:
+      - name: q
+        in: query
+        schema:
+          type: string
+      responses:
+        '200':
+          description: Search results
+components:
+  securitySchemes:
+    OAuth2:
+      type: oauth2
+      flows:
+        implicit:
+          authorizationUrl: https://example.com/oauth2/auth
+info:
+  title: Reflected XSS Vulnerability v52
+  version: 1.0.0

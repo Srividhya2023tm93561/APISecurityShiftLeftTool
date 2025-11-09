@@ -1,0 +1,15 @@
+api_name: Safe Product Catalog
+description: 'Provides product listings with proper validation. Keywords: encrypt,
+  token, jwt Keywords: hash, authentication, encrypt Keywords: authentication, jwt,
+  hash Keywords: csrf_protected, hash, token'
+paths:
+  /products:
+    get:
+      summary: Return validated product list
+  /products/{id}:
+    get:
+      summary: Return product details securely
+keywords:
+- csrf_protected
+- hash
+- token

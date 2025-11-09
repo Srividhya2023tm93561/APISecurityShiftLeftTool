@@ -1,0 +1,754 @@
+{
+  "api_specs": [
+    {
+      "api_name": "Injection API",
+      "filename": "vuln_injection_api_1.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Safe Product Catalog",
+      "filename": "safe_safe_product_catalog_2.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Safe Product Catalog",
+      "filename": "safe_safe_product_catalog_3.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Insecure Auth API",
+      "filename": "vuln_insecure_auth_api_4.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Safe Product Catalog",
+      "filename": "safe_safe_product_catalog_5.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Safe Product Catalog",
+      "filename": "safe_safe_product_catalog_6.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Secure User Service",
+      "filename": "safe_secure_user_service_7.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Secure User Service",
+      "filename": "safe_secure_user_service_8.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Injection API",
+      "filename": "vuln_injection_api_9.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Safe Product Catalog",
+      "filename": "safe_safe_product_catalog_10.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Safe Product Catalog",
+      "filename": "vuln_safe_product_catalog_11.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Insecure Auth API",
+      "filename": "vuln_insecure_auth_api_12.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Secure User Service",
+      "filename": "safe_secure_user_service_13.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Injection API",
+      "filename": "vuln_injection_api_14.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Safe Product Catalog",
+      "filename": "safe_safe_product_catalog_15.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "XSS Comments API",
+      "filename": "vuln_xss_comments_api_16.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "XSS Comments API",
+      "filename": "vuln_xss_comments_api_17.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Safe Product Catalog",
+      "filename": "safe_safe_product_catalog_18.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Insecure Auth API",
+      "filename": "vuln_insecure_auth_api_19.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Injection API",
+      "filename": "vuln_injection_api_20.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Safe Product Catalog",
+      "filename": "safe_safe_product_catalog_21.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "XSS Comments API",
+      "filename": "vuln_xss_comments_api_22.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Safe Product Catalog",
+      "filename": "safe_safe_product_catalog_23.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Safe Product Catalog",
+      "filename": "safe_safe_product_catalog_24.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Insecure Auth API",
+      "filename": "vuln_insecure_auth_api_25.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Safe Product Catalog",
+      "filename": "safe_safe_product_catalog_26.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Safe Product Catalog",
+      "filename": "safe_safe_product_catalog_27.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "XSS Comments API",
+      "filename": "vuln_xss_comments_api_28.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "XSS Comments API",
+      "filename": "vuln_xss_comments_api_29.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Safe Product Catalog",
+      "filename": "safe_safe_product_catalog_30.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Insecure Auth API",
+      "filename": "vuln_insecure_auth_api_31.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "XSS Comments API",
+      "filename": "vuln_xss_comments_api_32.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Secure User Service",
+      "filename": "safe_secure_user_service_33.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Injection API",
+      "filename": "vuln_injection_api_34.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Safe Product Catalog",
+      "filename": "vuln_safe_product_catalog_35.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "XSS Comments API",
+      "filename": "vuln_xss_comments_api_36.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Injection API",
+      "filename": "vuln_injection_api_37.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Secure User Service",
+      "filename": "safe_secure_user_service_38.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Safe Product Catalog",
+      "filename": "safe_safe_product_catalog_39.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Secure User Service",
+      "filename": "safe_secure_user_service_40.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Safe Product Catalog",
+      "filename": "safe_safe_product_catalog_41.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Secure User Service",
+      "filename": "vuln_secure_user_service_42.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Safe Product Catalog",
+      "filename": "safe_safe_product_catalog_43.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Safe Product Catalog",
+      "filename": "safe_safe_product_catalog_44.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Secure User Service",
+      "filename": "vuln_secure_user_service_45.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Safe Product Catalog",
+      "filename": "safe_safe_product_catalog_46.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Secure User Service",
+      "filename": "safe_secure_user_service_47.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Insecure Auth API",
+      "filename": "vuln_insecure_auth_api_48.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Secure User Service",
+      "filename": "safe_secure_user_service_49.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Insecure Auth API",
+      "filename": "vuln_insecure_auth_api_50.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "XSS Comments API",
+      "filename": "vuln_xss_comments_api_51.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Insecure Auth API",
+      "filename": "vuln_insecure_auth_api_52.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Secure User Service",
+      "filename": "safe_secure_user_service_53.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Secure User Service",
+      "filename": "safe_secure_user_service_54.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Injection API",
+      "filename": "vuln_injection_api_55.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Injection API",
+      "filename": "vuln_injection_api_56.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Insecure Auth API",
+      "filename": "vuln_insecure_auth_api_57.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Safe Product Catalog",
+      "filename": "safe_safe_product_catalog_58.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Injection API",
+      "filename": "vuln_injection_api_59.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "XSS Comments API",
+      "filename": "vuln_xss_comments_api_60.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Secure User Service",
+      "filename": "safe_secure_user_service_61.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Safe Product Catalog",
+      "filename": "safe_safe_product_catalog_62.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Secure User Service",
+      "filename": "safe_secure_user_service_63.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Safe Product Catalog",
+      "filename": "safe_safe_product_catalog_64.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Secure User Service",
+      "filename": "safe_secure_user_service_65.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Secure User Service",
+      "filename": "vuln_secure_user_service_66.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "XSS Comments API",
+      "filename": "vuln_xss_comments_api_67.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "XSS Comments API",
+      "filename": "vuln_xss_comments_api_68.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Safe Product Catalog",
+      "filename": "safe_safe_product_catalog_69.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Secure User Service",
+      "filename": "safe_secure_user_service_70.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "XSS Comments API",
+      "filename": "vuln_xss_comments_api_71.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Secure User Service",
+      "filename": "vuln_secure_user_service_72.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Injection API",
+      "filename": "vuln_injection_api_73.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Injection API",
+      "filename": "vuln_injection_api_74.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Secure User Service",
+      "filename": "safe_secure_user_service_75.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Insecure Auth API",
+      "filename": "vuln_insecure_auth_api_76.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Secure User Service",
+      "filename": "safe_secure_user_service_77.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Secure User Service",
+      "filename": "safe_secure_user_service_78.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Secure User Service",
+      "filename": "vuln_secure_user_service_79.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Safe Product Catalog",
+      "filename": "safe_safe_product_catalog_80.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Insecure Auth API",
+      "filename": "vuln_insecure_auth_api_81.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Injection API",
+      "filename": "vuln_injection_api_82.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Insecure Auth API",
+      "filename": "vuln_insecure_auth_api_83.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Safe Product Catalog",
+      "filename": "safe_safe_product_catalog_84.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Insecure Auth API",
+      "filename": "vuln_insecure_auth_api_85.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Injection API",
+      "filename": "vuln_injection_api_86.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Safe Product Catalog",
+      "filename": "vuln_safe_product_catalog_87.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "XSS Comments API",
+      "filename": "vuln_xss_comments_api_88.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Secure User Service",
+      "filename": "safe_secure_user_service_89.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Safe Product Catalog",
+      "filename": "safe_safe_product_catalog_90.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Insecure Auth API",
+      "filename": "vuln_insecure_auth_api_91.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Secure User Service",
+      "filename": "safe_secure_user_service_92.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Secure User Service",
+      "filename": "safe_secure_user_service_93.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Secure User Service",
+      "filename": "safe_secure_user_service_94.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Secure User Service",
+      "filename": "vuln_secure_user_service_95.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Secure User Service",
+      "filename": "safe_secure_user_service_96.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Insecure Auth API",
+      "filename": "vuln_insecure_auth_api_97.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Secure User Service",
+      "filename": "safe_secure_user_service_98.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Safe Product Catalog",
+      "filename": "safe_safe_product_catalog_99.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Injection API",
+      "filename": "vuln_injection_api_100.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Secure User Service",
+      "filename": "vuln_secure_user_service_101.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "XSS Comments API",
+      "filename": "vuln_xss_comments_api_102.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Injection API",
+      "filename": "vuln_injection_api_103.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Injection API",
+      "filename": "vuln_injection_api_104.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Safe Product Catalog",
+      "filename": "safe_safe_product_catalog_105.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Insecure Auth API",
+      "filename": "vuln_insecure_auth_api_106.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Safe Product Catalog",
+      "filename": "safe_safe_product_catalog_107.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "XSS Comments API",
+      "filename": "vuln_xss_comments_api_108.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Secure User Service",
+      "filename": "safe_secure_user_service_109.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Safe Product Catalog",
+      "filename": "vuln_safe_product_catalog_110.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "XSS Comments API",
+      "filename": "vuln_xss_comments_api_111.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Secure User Service",
+      "filename": "vuln_secure_user_service_112.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Safe Product Catalog",
+      "filename": "safe_safe_product_catalog_113.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "XSS Comments API",
+      "filename": "vuln_xss_comments_api_114.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Secure User Service",
+      "filename": "safe_secure_user_service_115.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Safe Product Catalog",
+      "filename": "safe_safe_product_catalog_116.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Secure User Service",
+      "filename": "vuln_secure_user_service_117.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Insecure Auth API",
+      "filename": "vuln_insecure_auth_api_118.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Insecure Auth API",
+      "filename": "vuln_insecure_auth_api_119.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Safe Product Catalog",
+      "filename": "safe_safe_product_catalog_120.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Injection API",
+      "filename": "vuln_injection_api_121.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Injection API",
+      "filename": "vuln_injection_api_122.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Insecure Auth API",
+      "filename": "vuln_insecure_auth_api_123.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Insecure Auth API",
+      "filename": "vuln_insecure_auth_api_124.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Secure User Service",
+      "filename": "safe_secure_user_service_125.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "XSS Comments API",
+      "filename": "vuln_xss_comments_api_126.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Secure User Service",
+      "filename": "safe_secure_user_service_127.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Injection API",
+      "filename": "vuln_injection_api_128.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Injection API",
+      "filename": "vuln_injection_api_129.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Secure User Service",
+      "filename": "safe_secure_user_service_130.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Safe Product Catalog",
+      "filename": "safe_safe_product_catalog_131.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Safe Product Catalog",
+      "filename": "safe_safe_product_catalog_132.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Safe Product Catalog",
+      "filename": "safe_safe_product_catalog_133.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Injection API",
+      "filename": "vuln_injection_api_134.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Safe Product Catalog",
+      "filename": "vuln_safe_product_catalog_135.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Secure User Service",
+      "filename": "safe_secure_user_service_136.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Secure User Service",
+      "filename": "safe_secure_user_service_137.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "XSS Comments API",
+      "filename": "vuln_xss_comments_api_138.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Insecure Auth API",
+      "filename": "vuln_insecure_auth_api_139.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Safe Product Catalog",
+      "filename": "safe_safe_product_catalog_140.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Safe Product Catalog",
+      "filename": "safe_safe_product_catalog_141.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Safe Product Catalog",
+      "filename": "safe_safe_product_catalog_142.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Secure User Service",
+      "filename": "safe_secure_user_service_143.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Safe Product Catalog",
+      "filename": "safe_safe_product_catalog_144.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Secure User Service",
+      "filename": "vuln_secure_user_service_145.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Safe Product Catalog",
+      "filename": "vuln_safe_product_catalog_146.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Secure User Service",
+      "filename": "safe_secure_user_service_147.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Secure User Service",
+      "filename": "safe_secure_user_service_148.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Insecure Auth API",
+      "filename": "vuln_insecure_auth_api_149.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Secure User Service",
+      "filename": "safe_secure_user_service_150.yaml",
+      "vulnerable": false
+    }
+  ]
+}

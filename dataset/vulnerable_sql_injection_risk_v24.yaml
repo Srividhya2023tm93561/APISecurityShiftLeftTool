@@ -1,0 +1,8 @@
+api_name: SQL Injection Risk
+description: Dynamic query building using unsanitized inputs.
+paths:
+  /search:
+    get:
+      summary: Direct SQL concatenation from user input
+version: v4
+id: 24

@@ -1,0 +1,9 @@
+scikit-learn
+numpy
+pandas
+faiss-cpu
+pyyaml
+requests
+joblib
+matplotlib
+seaborn

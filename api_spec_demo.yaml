@@ -1,0 +1,15 @@
+api_name: Critical Vulnerable API
+endpoints:
+  - path: http://example.com/login
+    method: POST
+    parameters:
+      - username
+      - password
+    description: |
+      Login endpoint with multiple critical flaws:
+      1. Uses HTTP instead of HTTPS (credentials sent in plaintext)
+      2. No rate limiting (allows brute force attacks)
+      3. Weak password policy (no strength enforcement)
+      4. User enumeration possible via error messages
+      5. Returns session tokens in URL query parameters
+      6. No account lockout on repeated failed attempts

@@ -1,0 +1,25 @@
+openapi: 3.0.0
+title: SQL Injection v{}
+paths:
+  /products/sfqg:
+    get:
+      summary: Fetch products
+      description: Unsanitized 'id' parameter leads to SQL injection vulnerability.
+      parameters:
+      - name: id
+        in: query
+        schema:
+          type: string
+      responses:
+        '200':
+          description: Product details
+components:
+  securitySchemes:
+    OAuth2:
+      type: oauth2
+      flows:
+        implicit:
+          authorizationUrl: https://example.com/oauth2/auth
+info:
+  title: SQL Injection v33
+  version: 1.0.0

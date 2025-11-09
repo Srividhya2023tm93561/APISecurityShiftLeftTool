@@ -1,0 +1,13 @@
+openapi: 3.0.0
+title: Insecure Deserialization v{}
+paths:
+  /upload/qyhrfl:
+    post:
+      summary: Deserialize user object
+      description: Accepts serialized objects and deserializes them without validation.
+      responses:
+        '200':
+          description: Deserialized object
+info:
+  title: Insecure Deserialization v108
+  version: 1.0.0

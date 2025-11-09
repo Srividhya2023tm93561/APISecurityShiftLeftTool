@@ -1,0 +1,22 @@
+api_name: Validated User Service
+description: 'Ensures all user data is validated before storage. Keywords: csrf_protected,
+  token, parameterized_query, input_filter Keywords: encrypt, jwt, token, auth_required
+  Keywords: auth_required, rate_limited, jwt, secure Keywords: csrf_protected, parameterized_query,
+  rate_limited, secure Keywords: encrypt, validate, secure, token Mixed endpoints
+  detected: potential misconfiguration. Keywords: debug_enabled, bypass, exposed,
+  injection'
+paths:
+  /user:
+    post:
+      summary: Validates and stores user data
+  /user/{id}:
+    get:
+      summary: Retrieves user securely
+  /search:
+    get:
+      summary: Concatenates query strings from parameters
+keywords:
+- debug_enabled
+- bypass
+- exposed
+- injection

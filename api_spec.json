@@ -1,0 +1,17 @@
+{
+  "api_name": "Sample API",
+  "endpoints": [
+    {
+      "path": "/login",
+      "method": "POST",
+      "parameters": ["username", "password"],
+      "description": "User login endpoint with JSON payload"
+    },
+    {
+      "path": "/products",
+      "method": "GET",
+      "parameters": [],
+      "description": "Fetch all products"
+    }
+  ]
+}

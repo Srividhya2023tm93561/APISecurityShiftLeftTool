@@ -1,0 +1,22 @@
+openapi: 3.0.0
+info:
+  title: Vulnerable File Upload API
+  version: 1.0.0
+paths:
+  /upload:
+    post:
+      summary: Upload a file
+      description: This endpoint allows an unauthenticated user to upload a file to the server. It lacks checks for file type and size, which could lead to malicious code execution or denial of service attacks.
+      requestBody:
+        required: true
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              properties:
+                file:
+                  type: string
+                  format: binary
+      responses:
+        '200':
+          description: File uploaded successfully.

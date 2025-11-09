@@ -1,0 +1,29 @@
+openapi: 3.0.0
+info:
+  title: Mass Assignment Vulnerability v1
+  version: 1.0.0
+paths:
+  /users/{id}:
+    put:
+      summary: Update a user's details
+      description: Allows a user to update their own details. The API accepts any field in the request body, including a hidden 'is_admin' field, making it vulnerable to mass assignment.
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                name:
+                  type: string
+                email:
+                  type: string
+      responses:
+        '200':
+          description: User updated successfully.

@@ -1,0 +1,16 @@
+api_name: Secure Auth API
+description: 'Provides safe authentication and token-based access control. Keywords:
+  sanitize, rate_limited, parameterized_query, encrypt Keywords: encrypt, secure,
+  token, validate'
+paths:
+  /login:
+    post:
+      summary: Validates credentials securely
+  /token:
+    get:
+      summary: Returns encrypted JWT access token
+keywords:
+- encrypt
+- secure
+- token
+- validate

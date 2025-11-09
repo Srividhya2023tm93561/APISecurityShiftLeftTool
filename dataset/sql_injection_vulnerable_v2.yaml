@@ -1,0 +1,46 @@
+openapi: 3.0.0
+{
+  "title": "SQL Injection Vulnerability v{}",
+  "paths": {
+    "/products/search": {
+      "get": {
+        "summary": "Search for products",
+        "description": "This endpoint accepts unsanitized user input, allowing potential SQL injection.",
+        "parameters": [
+          {
+            "name": "query",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Search results."
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "securitySchemes": {
+      "OAuth2": {
+        "type": "oauth2",
+        "flows": {
+          "implicit": {
+            "authorizationUrl": "https://example.com/oauth2/auth",
+            "scopes": {
+              "read:data": "Read data scope"
+            }
+          }
+        }
+      }
+    }
+  },
+  "info": {
+    "title": "SQL Injection Vulnerability v2",
+    "version": "1.0.0"
+  }
+}

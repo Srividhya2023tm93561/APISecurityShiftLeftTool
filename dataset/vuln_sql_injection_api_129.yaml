@@ -1,0 +1,22 @@
+api_name: SQL Injection API
+description: 'Accepts unescaped user input directly in SQL queries. Keywords: unsafe_query,
+  plaintext, injection, hardcoded Keywords: bypass, missing_auth, unvalidated, plaintext
+  Keywords: bypass, plaintext, debug_enabled, missing_auth Keywords: missing_auth,
+  plaintext, exposed, unvalidated Keywords: leak, missing_auth, debug_enabled, xss
+  Keywords: plaintext, hardcoded, missing_auth, exposed Keywords: exposed, hardcoded,
+  plaintext, missing_auth Keywords: exposed, leak, injection, plaintext Keywords:
+  unvalidated, bypass, leak, debug_enabled Keywords: injection, missing_auth, exposed,
+  bypass Keywords: unvalidated, hardcoded, missing_auth, bypass Keywords: missing_auth,
+  plaintext, leak, debug_enabled Keywords: hardcoded, leak, exposed, debug_enabled
+  Keywords: missing_auth, unvalidated, exposed, plaintext Keywords: injection, missing_auth,
+  bypass, hardcoded Keywords: xss, missing_auth, plaintext, exposed Keywords: missing_auth,
+  injection, hardcoded, xss Keywords: unsafe_query, injection, leak, xss'
+paths:
+  /search:
+    get:
+      summary: Concatenates query strings from parameters
+keywords:
+- unsafe_query
+- injection
+- leak
+- xss

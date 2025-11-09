@@ -1,0 +1,24 @@
+openapi: 3.0.0
+title: Safe Payment API v{}
+paths:
+  /payments/uzww:
+    post:
+      summary: Process secure payment
+      description: Protected by OAuth2, validates transaction integrity and avoids
+        replay attacks.
+      security:
+      - OAuth2:
+        - payments:write
+      responses:
+        '201':
+          description: Payment success
+components:
+  securitySchemes:
+    OAuth2:
+      type: oauth2
+      flows:
+        implicit:
+          authorizationUrl: https://example.com/oauth2/auth
+info:
+  title: Safe Payment API v6
+  version: 1.0.0

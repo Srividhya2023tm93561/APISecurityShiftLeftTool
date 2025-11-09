@@ -1,0 +1,35 @@
+openapi: 3.0.0
+info:
+  title: Secure Payment API
+  version: 1.0.0
+paths:
+  /payments:
+    post:
+      summary: Process a payment
+      description: Processes a new payment securely. This endpoint is protected by OAuth 2.0.
+      security:
+        - OAuth2:
+            - payments:write
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                amount:
+                  type: number
+                currency:
+                  type: string
+      responses:
+        '201':
+          description: Payment processed.
+components:
+  securitySchemes:
+    OAuth2:
+      type: oauth2
+      flows:
+        implicit:
+          authorizationUrl: https://example.com/oauth2/auth
+          scopes:
+            payments:write: Read and write payments data.

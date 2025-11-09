@@ -1,0 +1,17 @@
+api_name: XSS Comments API
+description: 'Reflects user input in responses, vulnerable to XSS. Keywords: injection,
+  exposed, plaintext Keywords: sql, exposed, leak Keywords: xss, plaintext, leak Keywords:
+  leak, bypass, exposed Keywords: leak, bypass, exposed Keywords: sql, hardcoded,
+  bypass Keywords: sql, leak, exposed Keywords: exposed, sql, injection Keywords:
+  sql, injection, exposed Keywords: plaintext, hardcoded, injection Keywords: plaintext,
+  bypass, injection Keywords: injection, xss, hardcoded Keywords: injection, hardcoded,
+  sql Keywords: exposed, leak, sql Keywords: injection, exposed, leak Keywords: sql,
+  injection, leak'
+paths:
+  /comments:
+    post:
+      summary: Echoes raw user HTML
+keywords:
+- sql
+- injection
+- leak

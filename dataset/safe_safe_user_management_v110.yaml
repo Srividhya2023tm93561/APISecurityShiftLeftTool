@@ -1,0 +1,11 @@
+api_name: Safe User Management
+description: Manages users with strict authentication, hashing and validation.
+paths:
+  /users:
+    post:
+      summary: Create new user with validation
+  /login:
+    post:
+      summary: Secure login endpoint
+version: v5
+id: 110

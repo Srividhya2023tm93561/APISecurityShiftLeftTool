@@ -1,0 +1,11 @@
+api_name: Injection API
+description: 'Prone to SQL Injection or unescaped input handling. Keywords: leak,
+  xss, bypass'
+paths:
+  /search:
+    get:
+      summary: Concatenates SQL query directly from user input
+keywords:
+- leak
+- xss
+- bypass

@@ -1,0 +1,14 @@
+openapi: 3.0.0
+title: Safe Payment API v{}
+paths:
+  /payments/wszpjp:
+    post:
+      summary: Process secure payment
+      description: Protected by OAuth2, validates transaction integrity and avoids
+        replay attacks.
+      responses:
+        '201':
+          description: Payment success
+info:
+  title: Safe Payment API v120
+  version: 1.0.0

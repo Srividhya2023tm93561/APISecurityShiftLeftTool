@@ -1,0 +1,31 @@
+openapi: 3.0.0
+{
+  "title": "SQL Injection Vulnerability v{}",
+  "paths": {
+    "/products/search": {
+      "get": {
+        "summary": "Search for products",
+        "description": "This endpoint accepts unsanitized user input, allowing potential SQL injection.",
+        "parameters": [
+          {
+            "name": "query",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Search results."
+          }
+        }
+      }
+    }
+  },
+  "info": {
+    "title": "SQL Injection Vulnerability v5",
+    "version": "1.0.0"
+  }
+}

@@ -1,0 +1,20 @@
+openapi: 3.0.0
+title: API Gateway Health Check v{}
+paths:
+  /health/rviawg:
+    get:
+      summary: Check service health
+      description: Simple unauthenticated status endpoint, safe and informational.
+      responses:
+        '200':
+          description: OK
+components:
+  securitySchemes:
+    OAuth2:
+      type: oauth2
+      flows:
+        implicit:
+          authorizationUrl: https://example.com/oauth2/auth
+info:
+  title: API Gateway Health Check v40
+  version: 1.0.0

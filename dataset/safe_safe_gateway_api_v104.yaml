@@ -1,0 +1,13 @@
+openapi: 3.0.0
+title: API Gateway Health Check v{}
+paths:
+  /health/ckgdj:
+    get:
+      summary: Check service health
+      description: Simple unauthenticated status endpoint, safe and informational.
+      responses:
+        '200':
+          description: OK
+info:
+  title: API Gateway Health Check v104
+  version: 1.0.0

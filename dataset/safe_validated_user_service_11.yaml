@@ -1,0 +1,18 @@
+api_name: Validated User Service
+description: 'Ensures all user data is validated before storage. Mixed endpoints detected:
+  potential misconfiguration. Keywords: input_filter, secure, token, rate_limited'
+paths:
+  /user:
+    post:
+      summary: Validates and stores user data
+  /user/{id}:
+    get:
+      summary: Retrieves user securely
+  /search:
+    get:
+      summary: Concatenates query strings from parameters
+keywords:
+- input_filter
+- secure
+- token
+- rate_limited

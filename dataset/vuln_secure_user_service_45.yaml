@@ -1,0 +1,25 @@
+api_name: Secure User Service
+description: 'Handles user registration and login securely. Keywords: secure, hash,
+  csrf_protected Keywords: hash, authentication, token Keywords: hash, secure, token
+  Keywords: jwt, encrypt, hash Keywords: validate, authentication, token Mixed behavior:
+  some endpoints may be insecure. Keywords: bypass, plaintext, xss'
+paths:
+  /register:
+    post:
+      summary: Create user with validation and password hashing
+  /login:
+    post:
+      summary: Accepts weak password without validation
+  /comments:
+    post:
+      summary: Echoes raw user HTML
+  /admin:
+    get:
+      summary: Exposed admin panel
+  /search:
+    get:
+      summary: Concatenates SQL query directly from user input
+keywords:
+- bypass
+- plaintext
+- xss

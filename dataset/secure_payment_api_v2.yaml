@@ -1,0 +1,61 @@
+openapi: 3.0.0
+{
+  "title": "Secure Payment API v{}",
+  "paths": {
+    "/payments": {
+      "post": {
+        "summary": "Process a secure payment",
+        "description": "Processes payments securely via OAuth2-protected endpoint.",
+        "security": [
+          {
+            "OAuth2": [
+              "payments:write"
+            ]
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "amount": {
+                    "type": "number"
+                  },
+                  "currency": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "Payment processed successfully."
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "securitySchemes": {
+      "OAuth2": {
+        "type": "oauth2",
+        "flows": {
+          "implicit": {
+            "authorizationUrl": "https://example.com/oauth2/auth",
+            "scopes": {
+              "payments:write": "Access payment operations"
+            }
+          }
+        }
+      }
+    }
+  },
+  "info": {
+    "title": "Secure Payment API v2",
+    "version": "1.0.0"
+  }
+}

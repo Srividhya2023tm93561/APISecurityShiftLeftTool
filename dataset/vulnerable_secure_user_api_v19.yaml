@@ -1,0 +1,26 @@
+openapi: 3.0.0
+title: Secure User API v{}
+paths:
+  /users/sbb:
+    get:
+      summary: Fetch users securely
+      description: This endpoint returns user data only for authenticated users with
+        proper RBAC checks.
+      security:
+      - bearerAuth: []
+      responses:
+        '200':
+          description: User list
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+    OAuth2:
+      type: oauth2
+      flows:
+        implicit:
+          authorizationUrl: https://example.com/oauth2/auth
+info:
+  title: Secure User API v19
+  version: 1.0.0

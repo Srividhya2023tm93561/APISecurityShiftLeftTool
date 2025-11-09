@@ -1,0 +1,14 @@
+openapi: 3.0.0
+info:
+  title: Vulnerable API v5
+  version: '1.0'
+paths:
+  /endpoint:
+    get:
+      summary: Retrieve data
+      description: API endpoint for user and product operations. This API missing
+        authorization check. However, it uses some secure headers.
+      responses:
+        '200':
+          description: OK
+security: []

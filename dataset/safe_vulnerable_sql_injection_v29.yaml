@@ -1,0 +1,18 @@
+openapi: 3.0.0
+title: SQL Injection v{}
+paths:
+  /products/gkrhi:
+    get:
+      summary: Fetch products
+      description: Unsanitized 'id' parameter leads to SQL injection vulnerability.
+      parameters:
+      - name: id
+        in: query
+        schema:
+          type: string
+      responses:
+        '200':
+          description: Product details
+info:
+  title: SQL Injection v29
+  version: 1.0.0

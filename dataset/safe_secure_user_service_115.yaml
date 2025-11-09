@@ -1,0 +1,31 @@
+api_name: Secure User Service
+description: 'Handles user registration and login securely. Keywords: secure, hash,
+  csrf_protected Keywords: hash, authentication, token Keywords: hash, secure, token
+  Keywords: jwt, encrypt, hash Keywords: validate, authentication, token Keywords:
+  jwt, token, csrf_protected Keywords: token, authentication, secure Keywords: jwt,
+  encrypt, authentication Keywords: token, validate, jwt Keywords: validate, jwt,
+  hash Keywords: authentication, hash, jwt Keywords: token, secure, hash Keywords:
+  validate, jwt, token Keywords: token, csrf_protected, validate Keywords: csrf_protected,
+  encrypt, validate Keywords: encrypt, csrf_protected, token Keywords: secure, csrf_protected,
+  hash Keywords: validate, authentication, encrypt Keywords: authentication, encrypt,
+  hash Keywords: secure, hash, jwt Keywords: jwt, csrf_protected, authentication'
+paths:
+  /register:
+    post:
+      summary: Create user with validation and password hashing
+  /login:
+    post:
+      summary: Accepts weak password without validation
+  /comments:
+    post:
+      summary: Echoes raw user HTML
+  /admin:
+    get:
+      summary: Exposed admin panel
+  /search:
+    get:
+      summary: Concatenates SQL query directly from user input
+keywords:
+- jwt
+- csrf_protected
+- authentication

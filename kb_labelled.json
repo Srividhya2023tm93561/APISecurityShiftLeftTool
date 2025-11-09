@@ -1,0 +1,12 @@
+[
+  {"id": 1, "text": "Validate all user inputs to prevent SQL Injection.", "label": 1},
+  {"id": 2, "text": "Always enforce authentication and authorization on endpoints.", "label": 1},
+  {"id": 3, "text": "Use HTTPS for all API communications to protect sensitive data.", "label": 0},
+  {"id": 4, "text": "Rate limit endpoints to prevent abuse and DoS attacks.", "label": 0},
+  {"id": 5, "text": "Never expose internal IDs directly to clients to avoid IDOR.", "label": 1},
+  {"id": 6, "text": "Include guidance for secure file upload and virus scanning.", "label": 1},
+  {"id": 7, "text": "Specify minimum password strength requirements for user-related endpoints.", "label": 0},
+  {"id": 8, "text": "Include guidance for preventing user enumeration in authentication endpoints.", "label": 1},
+  {"id": 9, "text": "Validate all path and query parameters for type, length, and format before implementation.", "label": 1},
+  {"id": 10, "text": "Include guidance for secure versioning to prevent legacy endpoint vulnerabilities.", "label": 0}
+]

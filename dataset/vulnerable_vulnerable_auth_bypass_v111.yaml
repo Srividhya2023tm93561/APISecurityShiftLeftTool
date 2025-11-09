@@ -1,0 +1,14 @@
+openapi: 3.0.0
+title: Broken Authentication v{}
+paths:
+  /auth/login/pvgu:
+    post:
+      summary: Login endpoint with weak password policy
+      description: Allows login without strong password validation, vulnerable to
+        brute-force attacks.
+      responses:
+        '200':
+          description: Login successful
+info:
+  title: Broken Authentication v111
+  version: 1.0.0

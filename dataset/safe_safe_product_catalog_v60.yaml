@@ -1,0 +1,11 @@
+api_name: Safe Product Catalog
+description: Retrieves product listings with proper validation and authentication.
+paths:
+  /products:
+    get:
+      summary: Fetch products securely
+  /products/{id}:
+    get:
+      summary: Fetch product details with authentication
+version: v5
+id: 60

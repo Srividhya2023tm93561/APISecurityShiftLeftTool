@@ -1,0 +1,31 @@
+openapi: 3.0.0
+info:
+  title: Secure Blog Admin v1
+  version: 1.0.0
+paths:
+  /admin/posts:
+    post:
+      summary: Create a new blog post
+      description: Creates a new post. This endpoint requires an authenticated admin user.
+      security:
+        - bearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                title:
+                  type: string
+                content:
+                  type: string
+      responses:
+        '201':
+          description: Post created successfully.
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT

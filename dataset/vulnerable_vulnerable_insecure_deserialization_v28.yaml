@@ -1,0 +1,20 @@
+openapi: 3.0.0
+title: Insecure Deserialization v{}
+paths:
+  /upload/pbcr:
+    post:
+      summary: Deserialize user object
+      description: Accepts serialized objects and deserializes them without validation.
+      responses:
+        '200':
+          description: Deserialized object
+components:
+  securitySchemes:
+    OAuth2:
+      type: oauth2
+      flows:
+        implicit:
+          authorizationUrl: https://example.com/oauth2/auth
+info:
+  title: Insecure Deserialization v28
+  version: 1.0.0
