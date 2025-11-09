@@ -1,8 +1,8 @@
 api_name: Insecure Admin Panel
 description: 'Admin interface without authentication or input validation. Keywords:
-  bypass, injection, exposed, unsafe_query Keywords: missing_auth, unsafe_query, debug_enabled,
-  injection Keywords: unsafe_query, unvalidated, leak, xss Keywords: xss, hardcoded,
-  leak, exposed'
+  injection, plaintext, unvalidated, leak Keywords: xss, bypass, missing_auth, debug_enabled
+  Keywords: unsafe_query, bypass, exposed, xss Keywords: injection, exposed, leak,
+  unvalidated Keywords: hardcoded, debug_enabled, exposed, xss'
 paths:
   /admin:
     get:
@@ -11,7 +11,7 @@ paths:
     post:
       summary: Allows configuration changes by any user
 keywords:
-- xss
 - hardcoded
-- leak
+- debug_enabled
 - exposed
+- xss

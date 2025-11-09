@@ -1,0 +1,19 @@
+api_name: Validated User Service
+description: 'Ensures all user data is validated before storage. Keywords: input_filter,
+  jwt, csrf_protected, auth_required Keywords: csrf_protected, encrypt, sanitize,
+  jwt Keywords: sanitize, auth_required, secure, encrypt Keywords: parameterized_query,
+  jwt, secure, auth_required Keywords: jwt, token, csrf_protected, input_filter Keywords:
+  secure, parameterized_query, csrf_protected, input_filter Keywords: token, auth_required,
+  jwt, sanitize Keywords: parameterized_query, token, auth_required, jwt'
+paths:
+  /user:
+    post:
+      summary: Validates and stores user data
+  /user/{id}:
+    get:
+      summary: Retrieves user securely
+keywords:
+- parameterized_query
+- token
+- auth_required
+- jwt

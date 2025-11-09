@@ -1,19 +1,19 @@
 {
   "api_specs": [
     {
-      "api_name": "Secure Auth API",
-      "filename": "safe_secure_auth_api_1.yaml",
-      "vulnerable": false
-    },
-    {
-      "api_name": "SQL Injection API",
-      "filename": "vuln_sql_injection_api_2.yaml",
-      "vulnerable": true
-    },
-    {
       "api_name": "Protected Payment Gateway",
-      "filename": "safe_protected_payment_gateway_3.yaml",
+      "filename": "safe_protected_payment_gateway_1.yaml",
       "vulnerable": false
+    },
+    {
+      "api_name": "Validated User Service",
+      "filename": "safe_validated_user_service_2.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Validated User Service",
+      "filename": "vuln_validated_user_service_3.yaml",
+      "vulnerable": true
     },
     {
       "api_name": "XSS-prone Comment API",
@@ -21,23 +21,23 @@
       "vulnerable": true
     },
     {
-      "api_name": "XSS-prone Comment API",
-      "filename": "vuln_xss-prone_comment_api_5.yaml",
+      "api_name": "SQL Injection API",
+      "filename": "vuln_sql_injection_api_5.yaml",
       "vulnerable": true
     },
     {
-      "api_name": "Secure Auth API",
-      "filename": "safe_secure_auth_api_6.yaml",
+      "api_name": "Protected Payment Gateway",
+      "filename": "safe_protected_payment_gateway_6.yaml",
       "vulnerable": false
     },
     {
-      "api_name": "XSS-prone Comment API",
-      "filename": "vuln_xss-prone_comment_api_7.yaml",
-      "vulnerable": true
+      "api_name": "Protected Payment Gateway",
+      "filename": "safe_protected_payment_gateway_7.yaml",
+      "vulnerable": false
     },
     {
-      "api_name": "XSS-prone Comment API",
-      "filename": "vuln_xss-prone_comment_api_8.yaml",
+      "api_name": "Insecure Admin Panel",
+      "filename": "vuln_insecure_admin_panel_8.yaml",
       "vulnerable": true
     },
     {
@@ -46,14 +46,14 @@
       "vulnerable": true
     },
     {
-      "api_name": "Insecure Admin Panel",
-      "filename": "vuln_insecure_admin_panel_10.yaml",
-      "vulnerable": true
+      "api_name": "Secure Auth API",
+      "filename": "safe_secure_auth_api_10.yaml",
+      "vulnerable": false
     },
     {
-      "api_name": "Validated User Service",
-      "filename": "safe_validated_user_service_11.yaml",
-      "vulnerable": false
+      "api_name": "XSS-prone Comment API",
+      "filename": "vuln_xss-prone_comment_api_11.yaml",
+      "vulnerable": true
     },
     {
       "api_name": "Insecure Admin Panel",
@@ -61,9 +61,9 @@
       "vulnerable": true
     },
     {
-      "api_name": "SQL Injection API",
-      "filename": "vuln_sql_injection_api_13.yaml",
-      "vulnerable": true
+      "api_name": "Protected Payment Gateway",
+      "filename": "safe_protected_payment_gateway_13.yaml",
+      "vulnerable": false
     },
     {
       "api_name": "XSS-prone Comment API",
@@ -71,34 +71,34 @@
       "vulnerable": true
     },
     {
-      "api_name": "Protected Payment Gateway",
-      "filename": "safe_protected_payment_gateway_15.yaml",
-      "vulnerable": false
-    },
-    {
-      "api_name": "Protected Payment Gateway",
-      "filename": "safe_protected_payment_gateway_16.yaml",
-      "vulnerable": false
-    },
-    {
       "api_name": "Insecure Admin Panel",
-      "filename": "vuln_insecure_admin_panel_17.yaml",
+      "filename": "vuln_insecure_admin_panel_15.yaml",
       "vulnerable": true
     },
     {
       "api_name": "Secure Auth API",
-      "filename": "safe_secure_auth_api_18.yaml",
+      "filename": "safe_secure_auth_api_16.yaml",
       "vulnerable": false
     },
     {
       "api_name": "Validated User Service",
-      "filename": "safe_validated_user_service_19.yaml",
+      "filename": "safe_validated_user_service_17.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "SQL Injection API",
+      "filename": "vuln_sql_injection_api_18.yaml",
       "vulnerable": true
     },
     {
-      "api_name": "Secure Auth API",
-      "filename": "safe_secure_auth_api_20.yaml",
+      "api_name": "Protected Payment Gateway",
+      "filename": "safe_protected_payment_gateway_19.yaml",
       "vulnerable": false
+    },
+    {
+      "api_name": "SQL Injection API",
+      "filename": "vuln_sql_injection_api_20.yaml",
+      "vulnerable": true
     },
     {
       "api_name": "SQL Injection API",
@@ -106,14 +106,14 @@
       "vulnerable": true
     },
     {
-      "api_name": "SQL Injection API",
-      "filename": "vuln_sql_injection_api_22.yaml",
+      "api_name": "XSS-prone Comment API",
+      "filename": "vuln_xss-prone_comment_api_22.yaml",
       "vulnerable": true
     },
     {
-      "api_name": "Validated User Service",
-      "filename": "safe_validated_user_service_23.yaml",
-      "vulnerable": false
+      "api_name": "Insecure Admin Panel",
+      "filename": "vuln_insecure_admin_panel_23.yaml",
+      "vulnerable": true
     },
     {
       "api_name": "Insecure Admin Panel",
@@ -121,14 +121,14 @@
       "vulnerable": true
     },
     {
-      "api_name": "Secure Auth API",
-      "filename": "safe_secure_auth_api_25.yaml",
-      "vulnerable": false
+      "api_name": "SQL Injection API",
+      "filename": "vuln_sql_injection_api_25.yaml",
+      "vulnerable": true
     },
     {
-      "api_name": "XSS-prone Comment API",
-      "filename": "vuln_xss-prone_comment_api_26.yaml",
-      "vulnerable": true
+      "api_name": "Protected Payment Gateway",
+      "filename": "safe_protected_payment_gateway_26.yaml",
+      "vulnerable": false
     },
     {
       "api_name": "XSS-prone Comment API",
@@ -136,28 +136,28 @@
       "vulnerable": true
     },
     {
-      "api_name": "Secure Auth API",
-      "filename": "safe_secure_auth_api_28.yaml",
-      "vulnerable": false
-    },
-    {
       "api_name": "Protected Payment Gateway",
-      "filename": "safe_protected_payment_gateway_29.yaml",
+      "filename": "safe_protected_payment_gateway_28.yaml",
       "vulnerable": false
     },
     {
-      "api_name": "Insecure Admin Panel",
-      "filename": "vuln_insecure_admin_panel_30.yaml",
+      "api_name": "XSS-prone Comment API",
+      "filename": "vuln_xss-prone_comment_api_29.yaml",
       "vulnerable": true
     },
     {
-      "api_name": "SQL Injection API",
-      "filename": "vuln_sql_injection_api_31.yaml",
-      "vulnerable": true
+      "api_name": "Validated User Service",
+      "filename": "safe_validated_user_service_30.yaml",
+      "vulnerable": false
     },
     {
-      "api_name": "SQL Injection API",
-      "filename": "vuln_sql_injection_api_32.yaml",
+      "api_name": "Validated User Service",
+      "filename": "safe_validated_user_service_31.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "XSS-prone Comment API",
+      "filename": "vuln_xss-prone_comment_api_32.yaml",
       "vulnerable": true
     },
     {
@@ -166,79 +166,79 @@
       "vulnerable": true
     },
     {
-      "api_name": "Validated User Service",
-      "filename": "safe_validated_user_service_34.yaml",
-      "vulnerable": false
-    },
-    {
       "api_name": "Protected Payment Gateway",
-      "filename": "safe_protected_payment_gateway_35.yaml",
-      "vulnerable": false
-    },
-    {
-      "api_name": "Validated User Service",
-      "filename": "safe_validated_user_service_36.yaml",
-      "vulnerable": false
-    },
-    {
-      "api_name": "Validated User Service",
-      "filename": "safe_validated_user_service_37.yaml",
+      "filename": "safe_protected_payment_gateway_34.yaml",
       "vulnerable": false
     },
     {
       "api_name": "Insecure Admin Panel",
-      "filename": "vuln_insecure_admin_panel_38.yaml",
-      "vulnerable": true
-    },
-    {
-      "api_name": "Insecure Admin Panel",
-      "filename": "vuln_insecure_admin_panel_39.yaml",
-      "vulnerable": true
-    },
-    {
-      "api_name": "Insecure Admin Panel",
-      "filename": "vuln_insecure_admin_panel_40.yaml",
+      "filename": "vuln_insecure_admin_panel_35.yaml",
       "vulnerable": true
     },
     {
       "api_name": "Secure Auth API",
-      "filename": "safe_secure_auth_api_41.yaml",
+      "filename": "safe_secure_auth_api_36.yaml",
       "vulnerable": false
     },
     {
-      "api_name": "Secure Auth API",
-      "filename": "vuln_secure_auth_api_42.yaml",
+      "api_name": "Protected Payment Gateway",
+      "filename": "vuln_protected_payment_gateway_37.yaml",
       "vulnerable": true
     },
     {
-      "api_name": "Validated User Service",
-      "filename": "safe_validated_user_service_43.yaml",
-      "vulnerable": false
-    },
-    {
-      "api_name": "Validated User Service",
-      "filename": "safe_validated_user_service_44.yaml",
-      "vulnerable": false
-    },
-    {
-      "api_name": "Insecure Admin Panel",
-      "filename": "vuln_insecure_admin_panel_45.yaml",
+      "api_name": "SQL Injection API",
+      "filename": "vuln_sql_injection_api_38.yaml",
       "vulnerable": true
     },
     {
       "api_name": "Protected Payment Gateway",
-      "filename": "safe_protected_payment_gateway_46.yaml",
+      "filename": "safe_protected_payment_gateway_39.yaml",
       "vulnerable": false
     },
     {
-      "api_name": "Validated User Service",
-      "filename": "safe_validated_user_service_47.yaml",
+      "api_name": "Protected Payment Gateway",
+      "filename": "safe_protected_payment_gateway_40.yaml",
       "vulnerable": false
     },
     {
-      "api_name": "Validated User Service",
-      "filename": "safe_validated_user_service_48.yaml",
+      "api_name": "Insecure Admin Panel",
+      "filename": "vuln_insecure_admin_panel_41.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Insecure Admin Panel",
+      "filename": "vuln_insecure_admin_panel_42.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "XSS-prone Comment API",
+      "filename": "vuln_xss-prone_comment_api_43.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "SQL Injection API",
+      "filename": "vuln_sql_injection_api_44.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Secure Auth API",
+      "filename": "safe_secure_auth_api_45.yaml",
       "vulnerable": false
+    },
+    {
+      "api_name": "Secure Auth API",
+      "filename": "safe_secure_auth_api_46.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "XSS-prone Comment API",
+      "filename": "vuln_xss-prone_comment_api_47.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "SQL Injection API",
+      "filename": "vuln_sql_injection_api_48.yaml",
+      "vulnerable": true
     },
     {
       "api_name": "Protected Payment Gateway",
@@ -246,24 +246,24 @@
       "vulnerable": false
     },
     {
+      "api_name": "Secure Auth API",
+      "filename": "safe_secure_auth_api_50.yaml",
+      "vulnerable": false
+    },
+    {
       "api_name": "Protected Payment Gateway",
-      "filename": "vuln_protected_payment_gateway_50.yaml",
-      "vulnerable": true
+      "filename": "safe_protected_payment_gateway_51.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Protected Payment Gateway",
+      "filename": "safe_protected_payment_gateway_52.yaml",
+      "vulnerable": false
     },
     {
       "api_name": "Insecure Admin Panel",
-      "filename": "vuln_insecure_admin_panel_51.yaml",
+      "filename": "vuln_insecure_admin_panel_53.yaml",
       "vulnerable": true
-    },
-    {
-      "api_name": "XSS-prone Comment API",
-      "filename": "vuln_xss-prone_comment_api_52.yaml",
-      "vulnerable": true
-    },
-    {
-      "api_name": "Secure Auth API",
-      "filename": "safe_secure_auth_api_53.yaml",
-      "vulnerable": false
     },
     {
       "api_name": "Secure Auth API",
@@ -271,33 +271,33 @@
       "vulnerable": false
     },
     {
-      "api_name": "SQL Injection API",
-      "filename": "vuln_sql_injection_api_55.yaml",
+      "api_name": "Insecure Admin Panel",
+      "filename": "vuln_insecure_admin_panel_55.yaml",
       "vulnerable": true
     },
     {
-      "api_name": "Validated User Service",
-      "filename": "safe_validated_user_service_56.yaml",
-      "vulnerable": false
-    },
-    {
-      "api_name": "Protected Payment Gateway",
-      "filename": "safe_protected_payment_gateway_57.yaml",
-      "vulnerable": false
-    },
-    {
       "api_name": "SQL Injection API",
-      "filename": "vuln_sql_injection_api_58.yaml",
+      "filename": "vuln_sql_injection_api_56.yaml",
       "vulnerable": true
     },
     {
-      "api_name": "Protected Payment Gateway",
-      "filename": "safe_protected_payment_gateway_59.yaml",
-      "vulnerable": false
+      "api_name": "Insecure Admin Panel",
+      "filename": "vuln_insecure_admin_panel_57.yaml",
+      "vulnerable": true
     },
     {
-      "api_name": "Validated User Service",
-      "filename": "safe_validated_user_service_60.yaml",
+      "api_name": "Insecure Admin Panel",
+      "filename": "vuln_insecure_admin_panel_58.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Insecure Admin Panel",
+      "filename": "vuln_insecure_admin_panel_59.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Secure Auth API",
+      "filename": "safe_secure_auth_api_60.yaml",
       "vulnerable": false
     },
     {
@@ -311,33 +311,33 @@
       "vulnerable": true
     },
     {
-      "api_name": "Insecure Admin Panel",
-      "filename": "vuln_insecure_admin_panel_63.yaml",
-      "vulnerable": true
-    },
-    {
-      "api_name": "Insecure Admin Panel",
-      "filename": "vuln_insecure_admin_panel_64.yaml",
-      "vulnerable": true
-    },
-    {
-      "api_name": "Insecure Admin Panel",
-      "filename": "vuln_insecure_admin_panel_65.yaml",
+      "api_name": "Validated User Service",
+      "filename": "safe_validated_user_service_63.yaml",
       "vulnerable": true
     },
     {
       "api_name": "XSS-prone Comment API",
-      "filename": "vuln_xss-prone_comment_api_66.yaml",
+      "filename": "vuln_xss-prone_comment_api_64.yaml",
       "vulnerable": true
     },
     {
       "api_name": "Secure Auth API",
-      "filename": "safe_secure_auth_api_67.yaml",
+      "filename": "safe_secure_auth_api_65.yaml",
       "vulnerable": false
     },
     {
-      "api_name": "SQL Injection API",
-      "filename": "vuln_sql_injection_api_68.yaml",
+      "api_name": "Insecure Admin Panel",
+      "filename": "vuln_insecure_admin_panel_66.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Validated User Service",
+      "filename": "safe_validated_user_service_67.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "XSS-prone Comment API",
+      "filename": "vuln_xss-prone_comment_api_68.yaml",
       "vulnerable": true
     },
     {
@@ -346,44 +346,44 @@
       "vulnerable": false
     },
     {
-      "api_name": "Secure Auth API",
-      "filename": "safe_secure_auth_api_70.yaml",
+      "api_name": "Protected Payment Gateway",
+      "filename": "safe_protected_payment_gateway_70.yaml",
       "vulnerable": false
     },
     {
-      "api_name": "Secure Auth API",
-      "filename": "safe_secure_auth_api_71.yaml",
-      "vulnerable": false
+      "api_name": "Insecure Admin Panel",
+      "filename": "vuln_insecure_admin_panel_71.yaml",
+      "vulnerable": true
     },
     {
-      "api_name": "XSS-prone Comment API",
-      "filename": "vuln_xss-prone_comment_api_72.yaml",
+      "api_name": "SQL Injection API",
+      "filename": "vuln_sql_injection_api_72.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "SQL Injection API",
+      "filename": "vuln_sql_injection_api_73.yaml",
       "vulnerable": true
     },
     {
       "api_name": "Validated User Service",
-      "filename": "safe_validated_user_service_73.yaml",
+      "filename": "safe_validated_user_service_74.yaml",
       "vulnerable": false
     },
     {
-      "api_name": "Insecure Admin Panel",
-      "filename": "vuln_insecure_admin_panel_74.yaml",
+      "api_name": "XSS-prone Comment API",
+      "filename": "vuln_xss-prone_comment_api_75.yaml",
       "vulnerable": true
     },
     {
-      "api_name": "Protected Payment Gateway",
-      "filename": "safe_protected_payment_gateway_75.yaml",
+      "api_name": "XSS-prone Comment API",
+      "filename": "vuln_xss-prone_comment_api_76.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Secure Auth API",
+      "filename": "safe_secure_auth_api_77.yaml",
       "vulnerable": false
-    },
-    {
-      "api_name": "Insecure Admin Panel",
-      "filename": "vuln_insecure_admin_panel_76.yaml",
-      "vulnerable": true
-    },
-    {
-      "api_name": "Insecure Admin Panel",
-      "filename": "vuln_insecure_admin_panel_77.yaml",
-      "vulnerable": true
     },
     {
       "api_name": "SQL Injection API",
@@ -391,9 +391,9 @@
       "vulnerable": true
     },
     {
-      "api_name": "XSS-prone Comment API",
-      "filename": "vuln_xss-prone_comment_api_79.yaml",
-      "vulnerable": true
+      "api_name": "Secure Auth API",
+      "filename": "safe_secure_auth_api_79.yaml",
+      "vulnerable": false
     },
     {
       "api_name": "SQL Injection API",
@@ -401,13 +401,13 @@
       "vulnerable": true
     },
     {
-      "api_name": "SQL Injection API",
-      "filename": "vuln_sql_injection_api_81.yaml",
-      "vulnerable": true
+      "api_name": "Validated User Service",
+      "filename": "safe_validated_user_service_81.yaml",
+      "vulnerable": false
     },
     {
-      "api_name": "Insecure Admin Panel",
-      "filename": "vuln_insecure_admin_panel_82.yaml",
+      "api_name": "SQL Injection API",
+      "filename": "vuln_sql_injection_api_82.yaml",
       "vulnerable": true
     },
     {
@@ -416,38 +416,38 @@
       "vulnerable": false
     },
     {
+      "api_name": "XSS-prone Comment API",
+      "filename": "vuln_xss-prone_comment_api_84.yaml",
+      "vulnerable": true
+    },
+    {
       "api_name": "Protected Payment Gateway",
-      "filename": "safe_protected_payment_gateway_84.yaml",
+      "filename": "safe_protected_payment_gateway_85.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Validated User Service",
+      "filename": "safe_validated_user_service_86.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Secure Auth API",
+      "filename": "safe_secure_auth_api_87.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Protected Payment Gateway",
+      "filename": "safe_protected_payment_gateway_88.yaml",
       "vulnerable": false
     },
     {
       "api_name": "SQL Injection API",
-      "filename": "vuln_sql_injection_api_85.yaml",
+      "filename": "vuln_sql_injection_api_89.yaml",
       "vulnerable": true
     },
     {
-      "api_name": "Secure Auth API",
-      "filename": "safe_secure_auth_api_86.yaml",
-      "vulnerable": false
-    },
-    {
-      "api_name": "Insecure Admin Panel",
-      "filename": "vuln_insecure_admin_panel_87.yaml",
-      "vulnerable": true
-    },
-    {
-      "api_name": "SQL Injection API",
-      "filename": "vuln_sql_injection_api_88.yaml",
-      "vulnerable": true
-    },
-    {
-      "api_name": "Secure Auth API",
-      "filename": "safe_secure_auth_api_89.yaml",
-      "vulnerable": false
-    },
-    {
-      "api_name": "Secure Auth API",
-      "filename": "safe_secure_auth_api_90.yaml",
+      "api_name": "Protected Payment Gateway",
+      "filename": "safe_protected_payment_gateway_90.yaml",
       "vulnerable": false
     },
     {
@@ -456,13 +456,13 @@
       "vulnerable": true
     },
     {
-      "api_name": "Secure Auth API",
-      "filename": "safe_secure_auth_api_92.yaml",
+      "api_name": "Validated User Service",
+      "filename": "safe_validated_user_service_92.yaml",
       "vulnerable": false
     },
     {
-      "api_name": "Secure Auth API",
-      "filename": "safe_secure_auth_api_93.yaml",
+      "api_name": "Insecure Admin Panel",
+      "filename": "vuln_insecure_admin_panel_93.yaml",
       "vulnerable": true
     },
     {
@@ -471,58 +471,58 @@
       "vulnerable": true
     },
     {
+      "api_name": "Secure Auth API",
+      "filename": "safe_secure_auth_api_95.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "SQL Injection API",
+      "filename": "vuln_sql_injection_api_96.yaml",
+      "vulnerable": true
+    },
+    {
       "api_name": "Insecure Admin Panel",
-      "filename": "vuln_insecure_admin_panel_95.yaml",
+      "filename": "vuln_insecure_admin_panel_97.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "SQL Injection API",
+      "filename": "vuln_sql_injection_api_98.yaml",
       "vulnerable": true
     },
     {
       "api_name": "Secure Auth API",
-      "filename": "safe_secure_auth_api_96.yaml",
+      "filename": "safe_secure_auth_api_99.yaml",
       "vulnerable": false
     },
     {
-      "api_name": "SQL Injection API",
-      "filename": "vuln_sql_injection_api_97.yaml",
-      "vulnerable": true
-    },
-    {
-      "api_name": "Validated User Service",
-      "filename": "safe_validated_user_service_98.yaml",
-      "vulnerable": false
-    },
-    {
-      "api_name": "SQL Injection API",
-      "filename": "vuln_sql_injection_api_99.yaml",
+      "api_name": "Insecure Admin Panel",
+      "filename": "vuln_insecure_admin_panel_100.yaml",
       "vulnerable": true
     },
     {
       "api_name": "Secure Auth API",
-      "filename": "safe_secure_auth_api_100.yaml",
+      "filename": "safe_secure_auth_api_101.yaml",
       "vulnerable": false
     },
     {
-      "api_name": "Protected Payment Gateway",
-      "filename": "safe_protected_payment_gateway_101.yaml",
-      "vulnerable": false
-    },
-    {
-      "api_name": "XSS-prone Comment API",
-      "filename": "vuln_xss-prone_comment_api_102.yaml",
+      "api_name": "Insecure Admin Panel",
+      "filename": "vuln_insecure_admin_panel_102.yaml",
       "vulnerable": true
     },
     {
       "api_name": "Secure Auth API",
       "filename": "safe_secure_auth_api_103.yaml",
-      "vulnerable": true
-    },
-    {
-      "api_name": "Secure Auth API",
-      "filename": "safe_secure_auth_api_104.yaml",
       "vulnerable": false
     },
     {
-      "api_name": "Insecure Admin Panel",
-      "filename": "vuln_insecure_admin_panel_105.yaml",
+      "api_name": "SQL Injection API",
+      "filename": "vuln_sql_injection_api_104.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "SQL Injection API",
+      "filename": "vuln_sql_injection_api_105.yaml",
       "vulnerable": true
     },
     {
@@ -536,24 +536,24 @@
       "vulnerable": true
     },
     {
-      "api_name": "SQL Injection API",
-      "filename": "vuln_sql_injection_api_108.yaml",
-      "vulnerable": true
-    },
-    {
-      "api_name": "SQL Injection API",
-      "filename": "vuln_sql_injection_api_109.yaml",
-      "vulnerable": true
-    },
-    {
       "api_name": "XSS-prone Comment API",
-      "filename": "vuln_xss-prone_comment_api_110.yaml",
+      "filename": "vuln_xss-prone_comment_api_108.yaml",
       "vulnerable": true
     },
     {
-      "api_name": "SQL Injection API",
-      "filename": "vuln_sql_injection_api_111.yaml",
-      "vulnerable": true
+      "api_name": "Protected Payment Gateway",
+      "filename": "safe_protected_payment_gateway_109.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Validated User Service",
+      "filename": "safe_validated_user_service_110.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Secure Auth API",
+      "filename": "safe_secure_auth_api_111.yaml",
+      "vulnerable": false
     },
     {
       "api_name": "Validated User Service",
@@ -561,48 +561,48 @@
       "vulnerable": false
     },
     {
-      "api_name": "Validated User Service",
-      "filename": "safe_validated_user_service_113.yaml",
-      "vulnerable": false
-    },
-    {
-      "api_name": "Secure Auth API",
-      "filename": "safe_secure_auth_api_114.yaml",
-      "vulnerable": false
-    },
-    {
-      "api_name": "Protected Payment Gateway",
-      "filename": "safe_protected_payment_gateway_115.yaml",
-      "vulnerable": false
-    },
-    {
-      "api_name": "Protected Payment Gateway",
-      "filename": "safe_protected_payment_gateway_116.yaml",
-      "vulnerable": false
-    },
-    {
-      "api_name": "Secure Auth API",
-      "filename": "vuln_secure_auth_api_117.yaml",
-      "vulnerable": false
-    },
-    {
-      "api_name": "Secure Auth API",
-      "filename": "safe_secure_auth_api_118.yaml",
-      "vulnerable": false
-    },
-    {
-      "api_name": "Protected Payment Gateway",
-      "filename": "safe_protected_payment_gateway_119.yaml",
-      "vulnerable": false
-    },
-    {
-      "api_name": "Insecure Admin Panel",
-      "filename": "vuln_insecure_admin_panel_120.yaml",
+      "api_name": "XSS-prone Comment API",
+      "filename": "vuln_xss-prone_comment_api_113.yaml",
       "vulnerable": true
     },
     {
       "api_name": "Validated User Service",
-      "filename": "safe_validated_user_service_121.yaml",
+      "filename": "safe_validated_user_service_114.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Validated User Service",
+      "filename": "safe_validated_user_service_115.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "SQL Injection API",
+      "filename": "vuln_sql_injection_api_116.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "XSS-prone Comment API",
+      "filename": "vuln_xss-prone_comment_api_117.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Protected Payment Gateway",
+      "filename": "safe_protected_payment_gateway_118.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Secure Auth API",
+      "filename": "safe_secure_auth_api_119.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Protected Payment Gateway",
+      "filename": "safe_protected_payment_gateway_120.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Secure Auth API",
+      "filename": "safe_secure_auth_api_121.yaml",
       "vulnerable": false
     },
     {
@@ -611,9 +611,9 @@
       "vulnerable": true
     },
     {
-      "api_name": "Insecure Admin Panel",
-      "filename": "vuln_insecure_admin_panel_123.yaml",
-      "vulnerable": true
+      "api_name": "Protected Payment Gateway",
+      "filename": "safe_protected_payment_gateway_123.yaml",
+      "vulnerable": false
     },
     {
       "api_name": "SQL Injection API",
@@ -621,8 +621,8 @@
       "vulnerable": true
     },
     {
-      "api_name": "Protected Payment Gateway",
-      "filename": "safe_protected_payment_gateway_125.yaml",
+      "api_name": "Secure Auth API",
+      "filename": "safe_secure_auth_api_125.yaml",
       "vulnerable": false
     },
     {
@@ -631,78 +631,78 @@
       "vulnerable": false
     },
     {
-      "api_name": "Validated User Service",
-      "filename": "safe_validated_user_service_127.yaml",
-      "vulnerable": false
-    },
-    {
-      "api_name": "Secure Auth API",
-      "filename": "vuln_secure_auth_api_128.yaml",
-      "vulnerable": true
-    },
-    {
-      "api_name": "Validated User Service",
-      "filename": "safe_validated_user_service_129.yaml",
-      "vulnerable": false
-    },
-    {
-      "api_name": "Secure Auth API",
-      "filename": "safe_secure_auth_api_130.yaml",
-      "vulnerable": false
-    },
-    {
-      "api_name": "Validated User Service",
-      "filename": "safe_validated_user_service_131.yaml",
+      "api_name": "Protected Payment Gateway",
+      "filename": "safe_protected_payment_gateway_127.yaml",
       "vulnerable": false
     },
     {
       "api_name": "SQL Injection API",
-      "filename": "vuln_sql_injection_api_132.yaml",
-      "vulnerable": true
-    },
-    {
-      "api_name": "SQL Injection API",
-      "filename": "vuln_sql_injection_api_133.yaml",
-      "vulnerable": true
-    },
-    {
-      "api_name": "XSS-prone Comment API",
-      "filename": "vuln_xss-prone_comment_api_134.yaml",
-      "vulnerable": true
-    },
-    {
-      "api_name": "XSS-prone Comment API",
-      "filename": "vuln_xss-prone_comment_api_135.yaml",
-      "vulnerable": true
-    },
-    {
-      "api_name": "SQL Injection API",
-      "filename": "vuln_sql_injection_api_136.yaml",
-      "vulnerable": true
-    },
-    {
-      "api_name": "XSS-prone Comment API",
-      "filename": "vuln_xss-prone_comment_api_137.yaml",
-      "vulnerable": true
-    },
-    {
-      "api_name": "Secure Auth API",
-      "filename": "vuln_secure_auth_api_138.yaml",
-      "vulnerable": true
-    },
-    {
-      "api_name": "SQL Injection API",
-      "filename": "vuln_sql_injection_api_139.yaml",
-      "vulnerable": false
-    },
-    {
-      "api_name": "SQL Injection API",
-      "filename": "vuln_sql_injection_api_140.yaml",
+      "filename": "vuln_sql_injection_api_128.yaml",
       "vulnerable": true
     },
     {
       "api_name": "Insecure Admin Panel",
-      "filename": "vuln_insecure_admin_panel_141.yaml",
+      "filename": "vuln_insecure_admin_panel_129.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Protected Payment Gateway",
+      "filename": "safe_protected_payment_gateway_130.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Secure Auth API",
+      "filename": "safe_secure_auth_api_131.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Insecure Admin Panel",
+      "filename": "vuln_insecure_admin_panel_132.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Protected Payment Gateway",
+      "filename": "safe_protected_payment_gateway_133.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Insecure Admin Panel",
+      "filename": "vuln_insecure_admin_panel_134.yaml",
+      "vulnerable": true
+    },
+    {
+      "api_name": "Secure Auth API",
+      "filename": "safe_secure_auth_api_135.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Secure Auth API",
+      "filename": "safe_secure_auth_api_136.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Secure Auth API",
+      "filename": "safe_secure_auth_api_137.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Secure Auth API",
+      "filename": "safe_secure_auth_api_138.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Secure Auth API",
+      "filename": "safe_secure_auth_api_139.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "Protected Payment Gateway",
+      "filename": "safe_protected_payment_gateway_140.yaml",
+      "vulnerable": false
+    },
+    {
+      "api_name": "XSS-prone Comment API",
+      "filename": "vuln_xss-prone_comment_api_141.yaml",
       "vulnerable": true
     },
     {
@@ -711,14 +711,14 @@
       "vulnerable": true
     },
     {
-      "api_name": "Secure Auth API",
-      "filename": "safe_secure_auth_api_143.yaml",
-      "vulnerable": false
+      "api_name": "XSS-prone Comment API",
+      "filename": "vuln_xss-prone_comment_api_143.yaml",
+      "vulnerable": true
     },
     {
-      "api_name": "Insecure Admin Panel",
-      "filename": "vuln_insecure_admin_panel_144.yaml",
-      "vulnerable": true
+      "api_name": "Protected Payment Gateway",
+      "filename": "safe_protected_payment_gateway_144.yaml",
+      "vulnerable": false
     },
     {
       "api_name": "Secure Auth API",
@@ -726,8 +726,8 @@
       "vulnerable": false
     },
     {
-      "api_name": "Validated User Service",
-      "filename": "safe_validated_user_service_146.yaml",
+      "api_name": "Secure Auth API",
+      "filename": "safe_secure_auth_api_146.yaml",
       "vulnerable": false
     },
     {
@@ -741,14 +741,14 @@
       "vulnerable": false
     },
     {
-      "api_name": "Protected Payment Gateway",
-      "filename": "safe_protected_payment_gateway_149.yaml",
-      "vulnerable": false
+      "api_name": "XSS-prone Comment API",
+      "filename": "vuln_xss-prone_comment_api_149.yaml",
+      "vulnerable": true
     },
     {
-      "api_name": "Protected Payment Gateway",
-      "filename": "safe_protected_payment_gateway_150.yaml",
-      "vulnerable": false
+      "api_name": "XSS-prone Comment API",
+      "filename": "vuln_xss-prone_comment_api_150.yaml",
+      "vulnerable": true
     }
   ]
 }

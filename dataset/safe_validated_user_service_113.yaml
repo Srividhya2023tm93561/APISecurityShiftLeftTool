@@ -1,15 +1,19 @@
 api_name: Validated User Service
-description: 'Ensures all user data is validated before storage. Keywords: parameterized_query,
-  encrypt, auth_required, csrf_protected Keywords: validate, csrf_protected, parameterized_query,
-  auth_required Keywords: csrf_protected, input_filter, validate, auth_required Keywords:
-  encrypt, rate_limited, secure, auth_required Keywords: secure, jwt, input_filter,
-  csrf_protected Keywords: jwt, validate, rate_limited, secure Keywords: validate,
-  sanitize, parameterized_query, secure Keywords: token, rate_limited, encrypt, csrf_protected
-  Keywords: csrf_protected, auth_required, sanitize, token Keywords: rate_limited,
-  jwt, sanitize, token Keywords: csrf_protected, auth_required, secure, sanitize Keywords:
-  encrypt, validate, token, rate_limited Keywords: secure, encrypt, input_filter,
-  parameterized_query Keywords: parameterized_query, sanitize, auth_required, validate
-  Keywords: rate_limited, sanitize, csrf_protected, input_filter'
+description: 'Ensures all user data is validated before storage. Keywords: rate_limited,
+  encrypt, sanitize, token Keywords: jwt, secure, input_filter, sanitize Keywords:
+  parameterized_query, validate, rate_limited, token Keywords: input_filter, parameterized_query,
+  auth_required, token Keywords: sanitize, token, validate, auth_required Keywords:
+  token, rate_limited, sanitize, validate Keywords: sanitize, csrf_protected, token,
+  parameterized_query Keywords: csrf_protected, validate, encrypt, sanitize Keywords:
+  parameterized_query, jwt, secure, input_filter Keywords: token, auth_required, input_filter,
+  csrf_protected Keywords: token, sanitize, input_filter, rate_limited Keywords: rate_limited,
+  encrypt, validate, parameterized_query Keywords: auth_required, parameterized_query,
+  encrypt, validate Keywords: input_filter, rate_limited, encrypt, csrf_protected
+  Keywords: secure, token, auth_required, encrypt Keywords: encrypt, sanitize, input_filter,
+  jwt Keywords: encrypt, parameterized_query, jwt, csrf_protected Keywords: sanitize,
+  auth_required, encrypt, secure Keywords: encrypt, token, auth_required, rate_limited
+  Keywords: csrf_protected, validate, jwt, parameterized_query Keywords: auth_required,
+  token, sanitize, rate_limited Keywords: validate, jwt, secure, auth_required'
 paths:
   /user:
     post:
@@ -17,11 +21,14 @@ paths:
   /user/{id}:
     get:
       summary: Retrieves user securely
-  /search:
+  /admin:
     get:
-      summary: Concatenates query strings from parameters
+      summary: Accessible admin dashboard without login
+  /config:
+    post:
+      summary: Allows configuration changes by any user
 keywords:
-- rate_limited
-- sanitize
-- csrf_protected
-- input_filter
+- validate
+- jwt
+- secure
+- auth_required

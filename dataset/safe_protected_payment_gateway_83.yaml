@@ -1,13 +1,14 @@
 api_name: Protected Payment Gateway
-description: 'Handles payment with encryption and secure endpoints. Keywords: validate,
-  sanitize, csrf_protected, encrypt Keywords: jwt, csrf_protected, secure, rate_limited
-  Keywords: encrypt, parameterized_query, sanitize, auth_required Keywords: input_filter,
-  jwt, rate_limited, secure Keywords: secure, encrypt, auth_required, token Keywords:
-  encrypt, parameterized_query, validate, input_filter Keywords: token, validate,
-  sanitize, auth_required Keywords: jwt, encrypt, csrf_protected, auth_required Keywords:
-  secure, input_filter, jwt, sanitize Keywords: validate, parameterized_query, secure,
-  token Keywords: csrf_protected, encrypt, parameterized_query, validate Keywords:
-  token, input_filter, rate_limited, validate'
+description: 'Handles payment with encryption and secure endpoints. Keywords: sanitize,
+  jwt, encrypt, rate_limited Keywords: input_filter, csrf_protected, token, secure
+  Keywords: input_filter, rate_limited, jwt, sanitize Keywords: input_filter, jwt,
+  parameterized_query, rate_limited Keywords: secure, sanitize, encrypt, token Keywords:
+  jwt, encrypt, validate, csrf_protected Keywords: encrypt, rate_limited, validate,
+  csrf_protected Keywords: token, sanitize, rate_limited, parameterized_query Keywords:
+  secure, rate_limited, sanitize, csrf_protected Keywords: encrypt, sanitize, secure,
+  jwt Keywords: rate_limited, csrf_protected, jwt, auth_required Keywords: validate,
+  secure, auth_required, input_filter Keywords: input_filter, secure, encrypt, rate_limited
+  Keywords: input_filter, encrypt, token, validate'
 paths:
   /pay:
     post:
@@ -15,6 +16,9 @@ paths:
   /refund:
     post:
       summary: Verifies refund requests with digital signatures
+  /search:
+    get:
+      summary: Concatenates query strings from parameters
   /admin:
     get:
       summary: Accessible admin dashboard without login
@@ -22,7 +26,7 @@ paths:
     post:
       summary: Allows configuration changes by any user
 keywords:
-- token
 - input_filter
-- rate_limited
+- encrypt
+- token
 - validate

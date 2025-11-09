@@ -1,22 +1,19 @@
 api_name: Secure Auth API
 description: 'Provides safe authentication and token-based access control. Keywords:
-  token, input_filter, sanitize, secure Keywords: auth_required, input_filter, csrf_protected,
-  parameterized_query Keywords: parameterized_query, jwt, secure, sanitize Keywords:
-  secure, input_filter, token, auth_required Keywords: validate, secure, auth_required,
-  jwt Keywords: secure, token, encrypt, validate Keywords: token, parameterized_query,
-  rate_limited, csrf_protected Keywords: secure, token, validate, rate_limited Keywords:
-  token, jwt, encrypt, validate Keywords: validate, csrf_protected, auth_required,
-  encrypt Keywords: parameterized_query, input_filter, rate_limited, auth_required
-  Keywords: encrypt, auth_required, parameterized_query, rate_limited Keywords: sanitize,
-  validate, token, rate_limited Keywords: token, secure, auth_required, jwt Keywords:
-  rate_limited, auth_required, token, input_filter Keywords: jwt, auth_required, sanitize,
-  secure Keywords: csrf_protected, sanitize, validate, secure Keywords: csrf_protected,
-  token, parameterized_query, validate Keywords: token, validate, encrypt, auth_required
-  Keywords: rate_limited, auth_required, csrf_protected, token Keywords: token, jwt,
-  parameterized_query, sanitize Keywords: auth_required, validate, csrf_protected,
-  rate_limited Keywords: auth_required, encrypt, sanitize, jwt Keywords: parameterized_query,
-  jwt, auth_required, input_filter Keywords: secure, auth_required, input_filter,
-  encrypt Keywords: encrypt, parameterized_query, input_filter, secure'
+  sanitize, parameterized_query, secure, token Keywords: validate, jwt, secure, rate_limited
+  Keywords: auth_required, jwt, sanitize, rate_limited Keywords: auth_required, sanitize,
+  jwt, token Keywords: encrypt, sanitize, token, jwt Keywords: token, auth_required,
+  csrf_protected, sanitize Keywords: jwt, validate, input_filter, secure Keywords:
+  validate, encrypt, sanitize, parameterized_query Keywords: token, parameterized_query,
+  jwt, validate Keywords: jwt, token, rate_limited, encrypt Keywords: parameterized_query,
+  encrypt, rate_limited, auth_required Keywords: rate_limited, encrypt, csrf_protected,
+  parameterized_query Keywords: secure, encrypt, parameterized_query, token Keywords:
+  jwt, parameterized_query, secure, validate Keywords: secure, encrypt, parameterized_query,
+  jwt Keywords: parameterized_query, jwt, rate_limited, csrf_protected Keywords: csrf_protected,
+  jwt, sanitize, parameterized_query Keywords: csrf_protected, jwt, token, encrypt
+  Keywords: auth_required, input_filter, rate_limited, encrypt Keywords: jwt, csrf_protected,
+  secure, rate_limited Keywords: parameterized_query, sanitize, auth_required, input_filter
+  Keywords: encrypt, secure, rate_limited, token'
 paths:
   /login:
     post:
@@ -24,20 +21,11 @@ paths:
   /token:
     get:
       summary: Returns encrypted JWT access token
-  /search:
-    get:
-      summary: Concatenates query strings from parameters
-  /admin:
-    get:
-      summary: Accessible admin dashboard without login
-  /config:
-    post:
-      summary: Allows configuration changes by any user
   /comment:
     post:
       summary: Echoes user input without sanitization
 keywords:
 - encrypt
-- parameterized_query
-- input_filter
 - secure
+- rate_limited
+- token

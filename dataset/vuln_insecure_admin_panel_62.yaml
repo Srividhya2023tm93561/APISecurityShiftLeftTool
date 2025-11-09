@@ -1,13 +1,14 @@
 api_name: Insecure Admin Panel
 description: 'Admin interface without authentication or input validation. Keywords:
-  bypass, injection, exposed, unsafe_query Keywords: missing_auth, unsafe_query, debug_enabled,
-  injection Keywords: unsafe_query, unvalidated, leak, xss Keywords: xss, hardcoded,
-  leak, exposed Keywords: injection, missing_auth, exposed, hardcoded Keywords: debug_enabled,
-  leak, plaintext, hardcoded Keywords: injection, unsafe_query, unvalidated, bypass
-  Keywords: unsafe_query, missing_auth, injection, unvalidated Keywords: hardcoded,
-  missing_auth, injection, xss Keywords: unsafe_query, plaintext, debug_enabled, xss
-  Keywords: unsafe_query, plaintext, injection, bypass Keywords: unsafe_query, leak,
-  plaintext, exposed'
+  injection, plaintext, unvalidated, leak Keywords: xss, bypass, missing_auth, debug_enabled
+  Keywords: unsafe_query, bypass, exposed, xss Keywords: injection, exposed, leak,
+  unvalidated Keywords: hardcoded, debug_enabled, exposed, xss Keywords: bypass, leak,
+  xss, unvalidated Keywords: debug_enabled, exposed, hardcoded, leak Keywords: plaintext,
+  xss, injection, unsafe_query Keywords: plaintext, exposed, bypass, xss Keywords:
+  leak, bypass, debug_enabled, missing_auth Keywords: injection, debug_enabled, unvalidated,
+  missing_auth Keywords: hardcoded, unvalidated, leak, xss Keywords: leak, debug_enabled,
+  exposed, unvalidated Keywords: missing_auth, unvalidated, bypass, exposed Keywords:
+  unvalidated, hardcoded, exposed, plaintext'
 paths:
   /admin:
     get:
@@ -16,7 +17,7 @@ paths:
     post:
       summary: Allows configuration changes by any user
 keywords:
-- unsafe_query
-- leak
-- plaintext
+- unvalidated
+- hardcoded
 - exposed
+- plaintext

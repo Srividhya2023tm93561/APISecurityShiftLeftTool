@@ -1,15 +1,11 @@
 api_name: Secure Auth API
 description: 'Provides safe authentication and token-based access control. Keywords:
-  token, input_filter, sanitize, secure Keywords: auth_required, input_filter, csrf_protected,
-  parameterized_query Keywords: parameterized_query, jwt, secure, sanitize Keywords:
-  secure, input_filter, token, auth_required Keywords: validate, secure, auth_required,
-  jwt Keywords: secure, token, encrypt, validate Keywords: token, parameterized_query,
-  rate_limited, csrf_protected Keywords: secure, token, validate, rate_limited Keywords:
-  token, jwt, encrypt, validate Keywords: validate, csrf_protected, auth_required,
-  encrypt Keywords: parameterized_query, input_filter, rate_limited, auth_required
-  Keywords: encrypt, auth_required, parameterized_query, rate_limited Mixed endpoints
-  detected: potential misconfiguration. Keywords: encrypt, sanitize, csrf_protected,
-  parameterized_query'
+  sanitize, secure, input_filter, csrf_protected Keywords: parameterized_query, encrypt,
+  input_filter, token Keywords: parameterized_query, token, jwt, input_filter Keywords:
+  jwt, input_filter, csrf_protected, validate Keywords: sanitize, auth_required, validate,
+  jwt Keywords: token, csrf_protected, secure, input_filter Keywords: validate, sanitize,
+  token, input_filter Keywords: auth_required, input_filter, jwt, secure Keywords:
+  validate, sanitize, input_filter, csrf_protected'
 paths:
   /login:
     post:
@@ -17,17 +13,8 @@ paths:
   /token:
     get:
       summary: Returns encrypted JWT access token
-  /search:
-    get:
-      summary: Concatenates query strings from parameters
-  /admin:
-    get:
-      summary: Accessible admin dashboard without login
-  /config:
-    post:
-      summary: Allows configuration changes by any user
 keywords:
-- encrypt
+- validate
 - sanitize
+- input_filter
 - csrf_protected
-- parameterized_query

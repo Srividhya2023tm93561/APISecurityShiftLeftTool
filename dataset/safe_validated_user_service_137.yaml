@@ -1,0 +1,39 @@
+api_name: Validated User Service
+description: 'Ensures all user data is validated before storage. Keywords: rate_limited,
+  encrypt, sanitize, token Keywords: jwt, secure, input_filter, sanitize Keywords:
+  parameterized_query, validate, rate_limited, token Keywords: input_filter, parameterized_query,
+  auth_required, token Keywords: sanitize, token, validate, auth_required Keywords:
+  token, rate_limited, sanitize, validate Keywords: sanitize, csrf_protected, token,
+  parameterized_query Keywords: csrf_protected, validate, encrypt, sanitize Keywords:
+  parameterized_query, jwt, secure, input_filter Keywords: token, auth_required, input_filter,
+  csrf_protected Keywords: token, sanitize, input_filter, rate_limited Keywords: rate_limited,
+  encrypt, validate, parameterized_query Keywords: auth_required, parameterized_query,
+  encrypt, validate Keywords: input_filter, rate_limited, encrypt, csrf_protected
+  Keywords: secure, token, auth_required, encrypt Keywords: encrypt, sanitize, input_filter,
+  jwt Keywords: encrypt, parameterized_query, jwt, csrf_protected Keywords: sanitize,
+  auth_required, encrypt, secure Keywords: encrypt, token, auth_required, rate_limited
+  Keywords: csrf_protected, validate, jwt, parameterized_query Keywords: auth_required,
+  token, sanitize, rate_limited Keywords: validate, jwt, secure, auth_required Keywords:
+  token, secure, sanitize, validate Mixed endpoints detected: potential misconfiguration.
+  Keywords: auth_required, jwt, encrypt, input_filter'
+paths:
+  /user:
+    post:
+      summary: Validates and stores user data
+  /user/{id}:
+    get:
+      summary: Retrieves user securely
+  /admin:
+    get:
+      summary: Accessible admin dashboard without login
+  /config:
+    post:
+      summary: Allows configuration changes by any user
+  /comment:
+    post:
+      summary: Echoes user input without sanitization
+keywords:
+- auth_required
+- jwt
+- encrypt
+- input_filter

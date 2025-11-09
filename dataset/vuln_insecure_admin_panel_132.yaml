@@ -1,0 +1,28 @@
+api_name: Insecure Admin Panel
+description: 'Admin interface without authentication or input validation. Keywords:
+  injection, plaintext, unvalidated, leak Keywords: xss, bypass, missing_auth, debug_enabled
+  Keywords: unsafe_query, bypass, exposed, xss Keywords: injection, exposed, leak,
+  unvalidated Keywords: hardcoded, debug_enabled, exposed, xss Keywords: bypass, leak,
+  xss, unvalidated Keywords: debug_enabled, exposed, hardcoded, leak Keywords: plaintext,
+  xss, injection, unsafe_query Keywords: plaintext, exposed, bypass, xss Keywords:
+  leak, bypass, debug_enabled, missing_auth Keywords: injection, debug_enabled, unvalidated,
+  missing_auth Keywords: hardcoded, unvalidated, leak, xss Keywords: leak, debug_enabled,
+  exposed, unvalidated Keywords: missing_auth, unvalidated, bypass, exposed Keywords:
+  unvalidated, hardcoded, exposed, plaintext Keywords: unsafe_query, missing_auth,
+  unvalidated, exposed Keywords: exposed, leak, bypass, unvalidated Keywords: debug_enabled,
+  plaintext, exposed, leak Keywords: xss, exposed, leak, missing_auth Keywords: bypass,
+  hardcoded, plaintext, unvalidated Keywords: leak, xss, exposed, missing_auth Keywords:
+  injection, bypass, exposed, debug_enabled Keywords: plaintext, xss, unsafe_query,
+  missing_auth Keywords: plaintext, injection, bypass, exposed'
+paths:
+  /admin:
+    get:
+      summary: Accessible admin dashboard without login
+  /config:
+    post:
+      summary: Allows configuration changes by any user
+keywords:
+- plaintext
+- injection
+- bypass
+- exposed

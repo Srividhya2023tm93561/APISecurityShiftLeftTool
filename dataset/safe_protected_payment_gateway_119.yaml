@@ -1,16 +1,15 @@
 api_name: Protected Payment Gateway
-description: 'Handles payment with encryption and secure endpoints. Keywords: validate,
-  sanitize, csrf_protected, encrypt Keywords: jwt, csrf_protected, secure, rate_limited
-  Keywords: encrypt, parameterized_query, sanitize, auth_required Keywords: input_filter,
-  jwt, rate_limited, secure Keywords: secure, encrypt, auth_required, token Keywords:
-  encrypt, parameterized_query, validate, input_filter Keywords: token, validate,
-  sanitize, auth_required Keywords: jwt, encrypt, csrf_protected, auth_required Keywords:
-  secure, input_filter, jwt, sanitize Keywords: validate, parameterized_query, secure,
-  token Keywords: csrf_protected, encrypt, parameterized_query, validate Keywords:
-  token, input_filter, rate_limited, validate Keywords: input_filter, sanitize, token,
-  secure Keywords: parameterized_query, input_filter, encrypt, rate_limited Keywords:
-  jwt, token, secure, sanitize Keywords: csrf_protected, input_filter, parameterized_query,
-  token Keywords: parameterized_query, input_filter, auth_required, token'
+description: 'Handles payment with encryption and secure endpoints. Keywords: token,
+  auth_required, secure, encrypt Keywords: token, auth_required, sanitize, parameterized_query
+  Keywords: input_filter, auth_required, parameterized_query, csrf_protected Keywords:
+  auth_required, input_filter, encrypt, csrf_protected Keywords: secure, auth_required,
+  input_filter, csrf_protected Keywords: parameterized_query, input_filter, jwt, csrf_protected
+  Keywords: jwt, encrypt, sanitize, input_filter Keywords: parameterized_query, token,
+  auth_required, rate_limited Keywords: auth_required, input_filter, rate_limited,
+  encrypt Keywords: input_filter, jwt, rate_limited, validate Keywords: jwt, validate,
+  encrypt, secure Keywords: parameterized_query, rate_limited, token, auth_required
+  Keywords: validate, csrf_protected, token, parameterized_query Keywords: auth_required,
+  input_filter, secure, parameterized_query'
 paths:
   /pay:
     post:
@@ -18,14 +17,14 @@ paths:
   /refund:
     post:
       summary: Verifies refund requests with digital signatures
-  /admin:
+  /search:
     get:
-      summary: Accessible admin dashboard without login
-  /config:
+      summary: Concatenates query strings from parameters
+  /comment:
     post:
-      summary: Allows configuration changes by any user
+      summary: Echoes user input without sanitization
 keywords:
-- parameterized_query
-- input_filter
 - auth_required
-- token
+- input_filter
+- secure
+- parameterized_query

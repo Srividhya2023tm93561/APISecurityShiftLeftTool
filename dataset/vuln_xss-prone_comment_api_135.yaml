@@ -1,22 +1,25 @@
 api_name: XSS-prone Comment API
-description: 'Displays unfiltered HTML comments in responses. Keywords: plaintext,
-  bypass, hardcoded, leak Keywords: unvalidated, missing_auth, plaintext, injection
-  Keywords: unvalidated, hardcoded, xss, debug_enabled Keywords: hardcoded, exposed,
-  injection, bypass Keywords: debug_enabled, xss, bypass, plaintext Keywords: leak,
-  debug_enabled, plaintext, missing_auth Keywords: debug_enabled, missing_auth, unsafe_query,
-  plaintext Keywords: exposed, leak, hardcoded, xss Keywords: plaintext, hardcoded,
-  missing_auth, unvalidated Keywords: exposed, unsafe_query, hardcoded, unvalidated
-  Keywords: hardcoded, xss, exposed, debug_enabled Keywords: exposed, debug_enabled,
-  unsafe_query, bypass Keywords: bypass, hardcoded, injection, missing_auth Keywords:
-  exposed, unsafe_query, leak, plaintext Keywords: exposed, debug_enabled, missing_auth,
-  hardcoded Keywords: xss, injection, bypass, plaintext Keywords: unsafe_query, unvalidated,
-  bypass, exposed'
+description: 'Displays unfiltered HTML comments in responses. Keywords: debug_enabled,
+  leak, bypass, plaintext Keywords: unsafe_query, injection, exposed, leak Keywords:
+  bypass, exposed, debug_enabled, xss Keywords: plaintext, injection, bypass, debug_enabled
+  Keywords: unsafe_query, bypass, xss, plaintext Keywords: injection, plaintext, hardcoded,
+  exposed Keywords: exposed, bypass, missing_auth, hardcoded Keywords: exposed, missing_auth,
+  xss, debug_enabled Keywords: missing_auth, xss, hardcoded, injection Keywords: unvalidated,
+  leak, bypass, missing_auth Keywords: exposed, injection, hardcoded, debug_enabled
+  Keywords: unsafe_query, leak, injection, exposed Keywords: missing_auth, unvalidated,
+  exposed, unsafe_query Keywords: xss, injection, plaintext, unsafe_query Keywords:
+  bypass, xss, unvalidated, leak Keywords: missing_auth, leak, bypass, xss Keywords:
+  missing_auth, bypass, injection, exposed Keywords: plaintext, injection, leak, debug_enabled
+  Keywords: missing_auth, leak, injection, debug_enabled Keywords: leak, injection,
+  xss, exposed Keywords: leak, plaintext, bypass, hardcoded Keywords: hardcoded, plaintext,
+  xss, exposed Keywords: xss, missing_auth, debug_enabled, leak Keywords: plaintext,
+  missing_auth, unsafe_query, xss Keywords: missing_auth, hardcoded, xss, debug_enabled'
 paths:
   /comment:
     post:
       summary: Echoes user input without sanitization
 keywords:
-- unsafe_query
-- unvalidated
-- bypass
-- exposed
+- missing_auth
+- hardcoded
+- xss
+- debug_enabled

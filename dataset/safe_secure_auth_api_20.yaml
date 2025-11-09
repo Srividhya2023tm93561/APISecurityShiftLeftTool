@@ -1,8 +1,8 @@
 api_name: Secure Auth API
 description: 'Provides safe authentication and token-based access control. Keywords:
-  sanitize, rate_limited, parameterized_query, encrypt Keywords: encrypt, secure,
-  token, validate Keywords: sanitize, validate, rate_limited, jwt Keywords: jwt, sanitize,
-  csrf_protected, rate_limited'
+  sanitize, parameterized_query, secure, token Keywords: validate, jwt, secure, rate_limited
+  Keywords: auth_required, jwt, sanitize, rate_limited Keywords: auth_required, sanitize,
+  jwt, token Keywords: encrypt, sanitize, token, jwt'
 paths:
   /login:
     post:
@@ -11,7 +11,7 @@ paths:
     get:
       summary: Returns encrypted JWT access token
 keywords:
-- jwt
+- encrypt
 - sanitize
-- csrf_protected
-- rate_limited
+- token
+- jwt

@@ -1,0 +1,25 @@
+api_name: Insecure Admin Panel
+description: 'Admin interface without authentication or input validation. Keywords:
+  hardcoded, plaintext, injection, bypass Keywords: missing_auth, unvalidated, xss,
+  hardcoded Keywords: unvalidated, injection, leak, plaintext Keywords: plaintext,
+  xss, bypass, leak Keywords: plaintext, unvalidated, bypass, leak Keywords: plaintext,
+  hardcoded, missing_auth, unvalidated Keywords: leak, xss, unsafe_query, plaintext
+  Keywords: unsafe_query, debug_enabled, plaintext, hardcoded Keywords: plaintext,
+  unsafe_query, xss, injection Keywords: unvalidated, unsafe_query, hardcoded, xss
+  Keywords: injection, missing_auth, bypass, leak Keywords: hardcoded, plaintext,
+  missing_auth, debug_enabled Keywords: debug_enabled, xss, exposed, unvalidated Keywords:
+  leak, unsafe_query, injection, hardcoded Keywords: unvalidated, plaintext, injection,
+  hardcoded Keywords: debug_enabled, leak, injection, bypass Keywords: bypass, exposed,
+  missing_auth, hardcoded'
+paths:
+  /admin:
+    get:
+      summary: Accessible admin dashboard without login
+  /config:
+    post:
+      summary: Allows configuration changes by any user
+keywords:
+- bypass
+- exposed
+- missing_auth
+- hardcoded

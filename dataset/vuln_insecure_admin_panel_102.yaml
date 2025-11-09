@@ -1,17 +1,18 @@
 api_name: Insecure Admin Panel
 description: 'Admin interface without authentication or input validation. Keywords:
-  hardcoded, exposed, missing_auth, leak Keywords: bypass, leak, injection, exposed
-  Keywords: injection, plaintext, exposed, hardcoded Keywords: hardcoded, xss, bypass,
-  exposed Keywords: missing_auth, hardcoded, debug_enabled, unsafe_query Keywords:
-  xss, plaintext, leak, exposed Keywords: plaintext, debug_enabled, exposed, bypass
-  Keywords: hardcoded, leak, missing_auth, unsafe_query Keywords: hardcoded, xss,
-  unsafe_query, exposed Keywords: bypass, unsafe_query, plaintext, debug_enabled Keywords:
-  injection, missing_auth, bypass, debug_enabled Keywords: exposed, injection, xss,
-  hardcoded Keywords: bypass, unsafe_query, debug_enabled, injection Keywords: debug_enabled,
-  plaintext, leak, unsafe_query Keywords: unsafe_query, injection, xss, hardcoded
-  Keywords: plaintext, unvalidated, exposed, unsafe_query Keywords: unvalidated, exposed,
-  plaintext, bypass Keywords: missing_auth, bypass, xss, hardcoded Keywords: unvalidated,
-  leak, missing_auth, hardcoded Keywords: xss, missing_auth, unsafe_query, bypass'
+  injection, plaintext, unvalidated, leak Keywords: xss, bypass, missing_auth, debug_enabled
+  Keywords: unsafe_query, bypass, exposed, xss Keywords: injection, exposed, leak,
+  unvalidated Keywords: hardcoded, debug_enabled, exposed, xss Keywords: bypass, leak,
+  xss, unvalidated Keywords: debug_enabled, exposed, hardcoded, leak Keywords: plaintext,
+  xss, injection, unsafe_query Keywords: plaintext, exposed, bypass, xss Keywords:
+  leak, bypass, debug_enabled, missing_auth Keywords: injection, debug_enabled, unvalidated,
+  missing_auth Keywords: hardcoded, unvalidated, leak, xss Keywords: leak, debug_enabled,
+  exposed, unvalidated Keywords: missing_auth, unvalidated, bypass, exposed Keywords:
+  unvalidated, hardcoded, exposed, plaintext Keywords: unsafe_query, missing_auth,
+  unvalidated, exposed Keywords: exposed, leak, bypass, unvalidated Keywords: debug_enabled,
+  plaintext, exposed, leak Keywords: xss, exposed, leak, missing_auth Keywords: bypass,
+  hardcoded, plaintext, unvalidated Keywords: leak, xss, exposed, missing_auth Keywords:
+  injection, bypass, exposed, debug_enabled'
 paths:
   /admin:
     get:
@@ -20,7 +21,7 @@ paths:
     post:
       summary: Allows configuration changes by any user
 keywords:
-- xss
-- missing_auth
-- unsafe_query
+- injection
 - bypass
+- exposed
+- debug_enabled

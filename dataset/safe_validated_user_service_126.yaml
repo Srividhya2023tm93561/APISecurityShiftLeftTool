@@ -1,17 +1,15 @@
 api_name: Validated User Service
-description: 'Ensures all user data is validated before storage. Keywords: parameterized_query,
-  encrypt, auth_required, csrf_protected Keywords: validate, csrf_protected, parameterized_query,
-  auth_required Keywords: csrf_protected, input_filter, validate, auth_required Keywords:
-  encrypt, rate_limited, secure, auth_required Keywords: secure, jwt, input_filter,
-  csrf_protected Keywords: jwt, validate, rate_limited, secure Keywords: validate,
-  sanitize, parameterized_query, secure Keywords: token, rate_limited, encrypt, csrf_protected
-  Keywords: csrf_protected, auth_required, sanitize, token Keywords: rate_limited,
-  jwt, sanitize, token Keywords: csrf_protected, auth_required, secure, sanitize Keywords:
-  encrypt, validate, token, rate_limited Keywords: secure, encrypt, input_filter,
-  parameterized_query Keywords: parameterized_query, sanitize, auth_required, validate
-  Keywords: rate_limited, sanitize, csrf_protected, input_filter Keywords: sanitize,
-  parameterized_query, secure, csrf_protected Keywords: rate_limited, csrf_protected,
-  secure, encrypt'
+description: 'Ensures all user data is validated before storage. Keywords: auth_required,
+  csrf_protected, input_filter, encrypt Keywords: validate, auth_required, encrypt,
+  csrf_protected Keywords: auth_required, parameterized_query, csrf_protected, jwt
+  Keywords: encrypt, parameterized_query, auth_required, token Keywords: encrypt,
+  validate, jwt, secure Keywords: encrypt, sanitize, parameterized_query, jwt Keywords:
+  jwt, input_filter, parameterized_query, validate Keywords: rate_limited, encrypt,
+  auth_required, input_filter Keywords: validate, sanitize, parameterized_query, csrf_protected
+  Keywords: validate, sanitize, secure, encrypt Keywords: sanitize, encrypt, parameterized_query,
+  token Keywords: secure, parameterized_query, jwt, encrypt Keywords: secure, input_filter,
+  token, rate_limited Keywords: input_filter, encrypt, sanitize, auth_required Keywords:
+  parameterized_query, sanitize, rate_limited, input_filter'
 paths:
   /user:
     post:
@@ -19,11 +17,17 @@ paths:
   /user/{id}:
     get:
       summary: Retrieves user securely
-  /search:
+  /comment:
+    post:
+      summary: Echoes user input without sanitization
+  /admin:
     get:
-      summary: Concatenates query strings from parameters
+      summary: Accessible admin dashboard without login
+  /config:
+    post:
+      summary: Allows configuration changes by any user
 keywords:
+- parameterized_query
+- sanitize
 - rate_limited
-- csrf_protected
-- secure
-- encrypt
+- input_filter

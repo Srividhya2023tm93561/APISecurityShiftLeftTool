@@ -1,12 +1,14 @@
 api_name: Validated User Service
-description: 'Ensures all user data is validated before storage. Keywords: csrf_protected,
-  token, parameterized_query, input_filter Keywords: encrypt, jwt, token, auth_required
-  Keywords: auth_required, rate_limited, jwt, secure Keywords: csrf_protected, parameterized_query,
-  rate_limited, secure Keywords: encrypt, validate, secure, token Keywords: validate,
-  jwt, sanitize, auth_required Keywords: jwt, parameterized_query, rate_limited, secure
-  Keywords: validate, sanitize, token, jwt Keywords: validate, token, encrypt, parameterized_query
-  Keywords: jwt, parameterized_query, validate, token Keywords: secure, rate_limited,
-  encrypt, token Keywords: auth_required, csrf_protected, sanitize, rate_limited'
+description: 'Ensures all user data is validated before storage. Keywords: auth_required,
+  csrf_protected, input_filter, encrypt Keywords: validate, auth_required, encrypt,
+  csrf_protected Keywords: auth_required, parameterized_query, csrf_protected, jwt
+  Keywords: encrypt, parameterized_query, auth_required, token Keywords: encrypt,
+  validate, jwt, secure Keywords: encrypt, sanitize, parameterized_query, jwt Keywords:
+  jwt, input_filter, parameterized_query, validate Keywords: rate_limited, encrypt,
+  auth_required, input_filter Keywords: validate, sanitize, parameterized_query, csrf_protected
+  Keywords: validate, sanitize, secure, encrypt Keywords: sanitize, encrypt, parameterized_query,
+  token Keywords: secure, parameterized_query, jwt, encrypt Keywords: secure, input_filter,
+  token, rate_limited'
 paths:
   /user:
     post:
@@ -14,14 +16,17 @@ paths:
   /user/{id}:
     get:
       summary: Retrieves user securely
-  /search:
-    get:
-      summary: Concatenates query strings from parameters
   /comment:
     post:
       summary: Echoes user input without sanitization
+  /admin:
+    get:
+      summary: Accessible admin dashboard without login
+  /config:
+    post:
+      summary: Allows configuration changes by any user
 keywords:
-- auth_required
-- csrf_protected
-- sanitize
+- secure
+- input_filter
+- token
 - rate_limited

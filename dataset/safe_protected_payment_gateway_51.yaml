@@ -1,11 +1,12 @@
 api_name: Protected Payment Gateway
-description: 'Handles payment with encryption and secure endpoints. Keywords: encrypt,
-  rate_limited, input_filter, csrf_protected Keywords: auth_required, rate_limited,
-  encrypt, secure Keywords: csrf_protected, token, input_filter, jwt Keywords: csrf_protected,
-  input_filter, parameterized_query, encrypt Keywords: csrf_protected, auth_required,
-  parameterized_query, token Keywords: token, input_filter, parameterized_query, validate
-  Keywords: auth_required, jwt, sanitize, validate Keywords: csrf_protected, encrypt,
-  jwt, parameterized_query Keywords: csrf_protected, encrypt, token, jwt'
+description: 'Handles payment with encryption and secure endpoints. Keywords: sanitize,
+  jwt, encrypt, rate_limited Keywords: input_filter, csrf_protected, token, secure
+  Keywords: input_filter, rate_limited, jwt, sanitize Keywords: input_filter, jwt,
+  parameterized_query, rate_limited Keywords: secure, sanitize, encrypt, token Keywords:
+  jwt, encrypt, validate, csrf_protected Keywords: encrypt, rate_limited, validate,
+  csrf_protected Keywords: token, sanitize, rate_limited, parameterized_query Keywords:
+  secure, rate_limited, sanitize, csrf_protected Keywords: encrypt, sanitize, secure,
+  jwt Keywords: rate_limited, csrf_protected, jwt, auth_required'
 paths:
   /pay:
     post:
@@ -13,6 +14,9 @@ paths:
   /refund:
     post:
       summary: Verifies refund requests with digital signatures
+  /search:
+    get:
+      summary: Concatenates query strings from parameters
   /admin:
     get:
       summary: Accessible admin dashboard without login
@@ -20,7 +24,7 @@ paths:
     post:
       summary: Allows configuration changes by any user
 keywords:
+- rate_limited
 - csrf_protected
-- encrypt
-- token
 - jwt
+- auth_required

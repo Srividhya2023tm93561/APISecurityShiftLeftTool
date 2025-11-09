@@ -1,14 +1,15 @@
 api_name: Secure Auth API
 description: 'Provides safe authentication and token-based access control. Keywords:
-  sanitize, rate_limited, parameterized_query, encrypt Keywords: encrypt, secure,
-  token, validate Keywords: sanitize, validate, rate_limited, jwt Keywords: jwt, sanitize,
-  csrf_protected, rate_limited Keywords: secure, token, parameterized_query, rate_limited
-  Keywords: csrf_protected, encrypt, parameterized_query, validate Keywords: rate_limited,
-  input_filter, csrf_protected, parameterized_query Keywords: csrf_protected, sanitize,
-  token, encrypt Keywords: secure, encrypt, rate_limited, input_filter Keywords: secure,
-  parameterized_query, encrypt, csrf_protected Keywords: encrypt, token, input_filter,
-  sanitize Keywords: encrypt, csrf_protected, input_filter, secure Keywords: input_filter,
-  validate, rate_limited, jwt'
+  sanitize, secure, input_filter, csrf_protected Keywords: parameterized_query, encrypt,
+  input_filter, token Keywords: parameterized_query, token, jwt, input_filter Keywords:
+  jwt, input_filter, csrf_protected, validate Keywords: sanitize, auth_required, validate,
+  jwt Keywords: token, csrf_protected, secure, input_filter Keywords: validate, sanitize,
+  token, input_filter Keywords: auth_required, input_filter, jwt, secure Keywords:
+  validate, sanitize, input_filter, csrf_protected Keywords: rate_limited, jwt, csrf_protected,
+  validate Keywords: secure, auth_required, rate_limited, input_filter Keywords: input_filter,
+  token, sanitize, encrypt Keywords: csrf_protected, parameterized_query, encrypt,
+  validate Keywords: parameterized_query, secure, csrf_protected, validate Keywords:
+  input_filter, csrf_protected, validate, jwt'
 paths:
   /login:
     post:
@@ -16,14 +17,11 @@ paths:
   /token:
     get:
       summary: Returns encrypted JWT access token
-  /admin:
-    get:
-      summary: Accessible admin dashboard without login
-  /config:
+  /comment:
     post:
-      summary: Allows configuration changes by any user
+      summary: Echoes user input without sanitization
 keywords:
 - input_filter
+- csrf_protected
 - validate
-- rate_limited
 - jwt

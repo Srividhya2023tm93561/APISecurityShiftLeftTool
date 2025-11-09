@@ -1,17 +1,14 @@
 api_name: Insecure Admin Panel
 description: 'Admin interface without authentication or input validation. Keywords:
-  bypass, injection, exposed, unsafe_query Keywords: missing_auth, unsafe_query, debug_enabled,
-  injection Keywords: unsafe_query, unvalidated, leak, xss Keywords: xss, hardcoded,
-  leak, exposed Keywords: injection, missing_auth, exposed, hardcoded Keywords: debug_enabled,
-  leak, plaintext, hardcoded Keywords: injection, unsafe_query, unvalidated, bypass
-  Keywords: unsafe_query, missing_auth, injection, unvalidated Keywords: hardcoded,
-  missing_auth, injection, xss Keywords: unsafe_query, plaintext, debug_enabled, xss
-  Keywords: unsafe_query, plaintext, injection, bypass Keywords: unsafe_query, leak,
-  plaintext, exposed Keywords: unsafe_query, hardcoded, xss, exposed Keywords: unsafe_query,
-  missing_auth, bypass, unvalidated Keywords: exposed, bypass, unvalidated, injection
-  Keywords: leak, exposed, hardcoded, missing_auth Keywords: exposed, xss, unsafe_query,
-  plaintext Keywords: bypass, unsafe_query, exposed, missing_auth Keywords: debug_enabled,
-  bypass, xss, missing_auth Keywords: debug_enabled, bypass, plaintext, xss'
+  hardcoded, unvalidated, debug_enabled, unsafe_query Keywords: injection, unsafe_query,
+  hardcoded, leak Keywords: unsafe_query, bypass, hardcoded, plaintext Keywords: unvalidated,
+  bypass, injection, exposed Keywords: unvalidated, leak, debug_enabled, exposed Keywords:
+  bypass, injection, hardcoded, missing_auth Keywords: debug_enabled, missing_auth,
+  hardcoded, leak Keywords: missing_auth, unvalidated, bypass, leak Keywords: bypass,
+  hardcoded, xss, unsafe_query Keywords: hardcoded, debug_enabled, unvalidated, plaintext
+  Keywords: xss, debug_enabled, unsafe_query, hardcoded Keywords: xss, missing_auth,
+  unsafe_query, unvalidated Keywords: leak, unsafe_query, debug_enabled, unvalidated
+  Keywords: xss, missing_auth, unvalidated, plaintext'
 paths:
   /admin:
     get:
@@ -20,7 +17,7 @@ paths:
     post:
       summary: Allows configuration changes by any user
 keywords:
-- debug_enabled
-- bypass
-- plaintext
 - xss
+- missing_auth
+- unvalidated
+- plaintext

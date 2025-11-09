@@ -1,0 +1,21 @@
+api_name: Protected Payment Gateway
+description: 'Handles payment with encryption and secure endpoints. Keywords: sanitize,
+  jwt, encrypt, rate_limited Keywords: input_filter, csrf_protected, token, secure
+  Keywords: input_filter, rate_limited, jwt, sanitize Keywords: input_filter, jwt,
+  parameterized_query, rate_limited Keywords: secure, sanitize, encrypt, token Keywords:
+  jwt, encrypt, validate, csrf_protected'
+paths:
+  /pay:
+    post:
+      summary: Processes transactions via SSL
+  /refund:
+    post:
+      summary: Verifies refund requests with digital signatures
+  /search:
+    get:
+      summary: Concatenates query strings from parameters
+keywords:
+- jwt
+- encrypt
+- validate
+- csrf_protected

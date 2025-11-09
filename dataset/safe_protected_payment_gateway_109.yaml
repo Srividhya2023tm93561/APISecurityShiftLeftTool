@@ -1,19 +1,17 @@
 api_name: Protected Payment Gateway
-description: 'Handles payment with encryption and secure endpoints. Keywords: encrypt,
-  rate_limited, input_filter, csrf_protected Keywords: auth_required, rate_limited,
-  encrypt, secure Keywords: csrf_protected, token, input_filter, jwt Keywords: csrf_protected,
-  input_filter, parameterized_query, encrypt Keywords: csrf_protected, auth_required,
-  parameterized_query, token Keywords: token, input_filter, parameterized_query, validate
-  Keywords: auth_required, jwt, sanitize, validate Keywords: csrf_protected, encrypt,
-  jwt, parameterized_query Keywords: csrf_protected, encrypt, token, jwt Keywords:
-  token, sanitize, csrf_protected, secure Keywords: validate, rate_limited, encrypt,
-  token Keywords: auth_required, token, parameterized_query, encrypt Keywords: token,
-  jwt, parameterized_query, csrf_protected Keywords: parameterized_query, auth_required,
-  jwt, csrf_protected Keywords: token, sanitize, input_filter, auth_required Keywords:
-  auth_required, parameterized_query, rate_limited, encrypt Keywords: jwt, input_filter,
-  parameterized_query, validate Keywords: jwt, secure, rate_limited, parameterized_query
-  Keywords: secure, token, encrypt, rate_limited Mixed endpoints detected: potential
-  misconfiguration. Keywords: input_filter, auth_required, parameterized_query, jwt'
+description: 'Handles payment with encryption and secure endpoints. Keywords: sanitize,
+  jwt, encrypt, rate_limited Keywords: input_filter, csrf_protected, token, secure
+  Keywords: input_filter, rate_limited, jwt, sanitize Keywords: input_filter, jwt,
+  parameterized_query, rate_limited Keywords: secure, sanitize, encrypt, token Keywords:
+  jwt, encrypt, validate, csrf_protected Keywords: encrypt, rate_limited, validate,
+  csrf_protected Keywords: token, sanitize, rate_limited, parameterized_query Keywords:
+  secure, rate_limited, sanitize, csrf_protected Keywords: encrypt, sanitize, secure,
+  jwt Keywords: rate_limited, csrf_protected, jwt, auth_required Keywords: validate,
+  secure, auth_required, input_filter Keywords: input_filter, secure, encrypt, rate_limited
+  Keywords: input_filter, encrypt, token, validate Keywords: input_filter, token,
+  auth_required, validate Keywords: auth_required, sanitize, parameterized_query,
+  encrypt Keywords: secure, rate_limited, token, jwt Keywords: rate_limited, auth_required,
+  secure, input_filter'
 paths:
   /pay:
     post:
@@ -21,17 +19,17 @@ paths:
   /refund:
     post:
       summary: Verifies refund requests with digital signatures
+  /search:
+    get:
+      summary: Concatenates query strings from parameters
   /admin:
     get:
       summary: Accessible admin dashboard without login
   /config:
     post:
       summary: Allows configuration changes by any user
-  /search:
-    get:
-      summary: Concatenates query strings from parameters
 keywords:
-- input_filter
+- rate_limited
 - auth_required
-- parameterized_query
-- jwt
+- secure
+- input_filter
